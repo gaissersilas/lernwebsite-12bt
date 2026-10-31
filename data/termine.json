@@ -86,8 +86,7 @@
       "name_status": "belegt",
       "lehrer": [
         "BeK"
-      ],
-      "beleg": "Bestätigung Silas 31.10.2026; F-Schulaufgabe 21.12. 08:00–09:30 = Mo Std 1–2 BeK F (KW 52 markiert); Ordner Französisch"
+      ]
     },
     {
       "kuerzel": "Ph",
@@ -95,8 +94,7 @@
       "name_status": "belegt",
       "lehrer": [
         "RoJ"
-      ],
-      "beleg": "Bestätigung Silas 31.10.2026; Ph-KA 19.11. 11:30–13:00 = Do Std 5–6 RoJ Ph (KW 47 markiert)"
+      ]
     },
     {
       "kuerzel": "M",
@@ -104,8 +102,7 @@
       "name_status": "belegt",
       "lehrer": [
         "Kl"
-      ],
-      "beleg": "Bestätigung Silas 31.10.2026; Kürzel M im Plan; Fach Mathematik in Drive; kein Termin-Abgleich"
+      ]
     },
     {
       "kuerzel": "GPuG",
@@ -113,8 +110,7 @@
       "name_status": "belegt",
       "lehrer": [
         "Ra"
-      ],
-      "beleg": "Bestätigung Silas 31.10.2026; Lehrplan gpug12.pdf: 'Berufsoberschule: Geschichte/Politik und Gesellschaft 12'; Plan: Ra GPuG"
+      ]
     },
     {
       "kuerzel": "K",
@@ -122,8 +118,7 @@
       "name_status": "belegt",
       "lehrer": [
         "ScD"
-      ],
-      "beleg": "Bestätigung Silas 31.10.2026; Kath.-Religion-KA 30.11. 12:15–13:00 = Mo Std 6 ScD K (KW 49 markiert); Doc 'Hefteinträge - Religionslehre'"
+      ]
     },
     {
       "kuerzel": "D",
@@ -131,8 +126,7 @@
       "name_status": "belegt",
       "lehrer": [
         "Ka"
-      ],
-      "beleg": "Bestätigung Silas 31.10.2026; Plan: Ka D; Deutsch-Termine (30.10., 05.02.) passen aber NICHT auf Ka-D-Stunden; App-Liste nennt Fach 'Deutsch' mit Kürzel D"
+      ]
     },
     {
       "kuerzel": "C",
@@ -140,8 +134,7 @@
       "name_status": "belegt",
       "lehrer": [
         "ReB"
-      ],
-      "beleg": "Bestätigung Silas 31.10.2026; Chemie-KA 20.01.2027 08:45–09:30 = Mi Std 2 ReB C (zeitliche Übereinstimmung)"
+      ]
     },
     {
       "kuerzel": "E",
@@ -149,8 +142,7 @@
       "name_status": "belegt",
       "lehrer": [
         "Te"
-      ],
-      "beleg": "Bestätigung Silas 31.10.2026; Englisch-SA 26.11. 09:40–11:10 = Do Std 3–4 Te E (KW 48 markiert)"
+      ]
     },
     {
       "kuerzel": "Te",
@@ -158,8 +150,7 @@
       "name_status": "belegt",
       "lehrer": [
         "Spa"
-      ],
-      "beleg": "Bestätigung Silas 31.10.2026; Plan: Spa Te; vermutlich Technologie (Drive-Ordner Technologie, technologie12.pdf), aber nicht belegt"
+      ]
     },
     {
       "kuerzel": "M+T",
@@ -167,8 +158,7 @@
       "name_status": "belegt",
       "lehrer": [
         "SDa"
-      ],
-      "beleg": "Bestätigung Silas 31.10.2026; App: 'Mathematik Additum Technik' mit Kürzel 'M+T?'; Termine fallen auf SDa-M+T-Stunden (Fr Std 4)"
+      ]
     }
   ],
   "termine": [
@@ -182,10 +172,9 @@
       "uhrzeit": null,
       "raum": null,
       "themen": [],
-      "quelle": "Sprachnotizen_2026-10-25 (Transkript), Aufnahmen 21.10.2026 (morgens und nachmittags)",
-      "notizen": "vergangen; Uhrzeit nicht angegeben",
+      "quelle": "Klasseninfo",
       "offene_fragen": [
-        "Aufnahme 19.10. nennt außerdem eine Physik-KA 'am 21.' – widerspricht App (1. KA PH am 19.11.), daher nicht übernommen"
+        "Einzelheiten werden noch geklärt"
       ],
       "status": "fest"
     },
@@ -199,8 +188,7 @@
       "uhrzeit": null,
       "raum": null,
       "themen": [],
-      "quelle": "alte Terminkarte (privater Zeitplan), nicht in App-Liste",
-      "notizen": "vergangen",
+      "quelle": "Klasseninfo",
       "offene_fragen": [],
       "status": "fest"
     },
@@ -217,10 +205,9 @@
         "Kommentar: Protestaktionen Jugendlicher, bes. Klimaschutz",
         "Struktur Behauptung–Begründung–Beispiel"
       ],
-      "quelle": "alte Terminkarte (privater Zeitplan), nicht in App-Liste",
-      "notizen": "vergangen",
+      "quelle": "Klasseninfo",
       "offene_fragen": [
-        "Typ (Schulaufgabe?) nicht durch App bestätigt"
+        "Einzelheiten werden noch geklärt"
       ],
       "status": "fest"
     },
@@ -234,8 +221,7 @@
       "uhrzeit": null,
       "raum": null,
       "themen": [],
-      "quelle": "Vorgabe Silas/Sekretär; Stundenplan KW45 ('HF 02.11. bis 08.11.')",
-      "notizen": null,
+      "quelle": "Stundenplan (Schul-App)",
       "offene_fragen": [],
       "status": "fest"
     },
@@ -249,8 +235,7 @@
       "uhrzeit": null,
       "raum": null,
       "themen": [],
-      "quelle": "alte Terminkarte (privater Zeitplan)",
-      "notizen": "kein Leistungsnachweis",
+      "quelle": "Klasseninfo",
       "offene_fragen": [],
       "status": "fest"
     },
@@ -264,8 +249,7 @@
       "uhrzeit": "10:25-11:10",
       "raum": "130 (Klasse OG)",
       "themen": [],
-      "quelle": "Schul-App Leistungsnachweise (Screenshot Silas, 31.10.2026)",
-      "notizen": "App: 10:25-11:10 (alte Karte hatte 10:25-12:10, verworfen)",
+      "quelle": "Schul-App (Leistungsnachweise)",
       "offene_fragen": [],
       "status": "fest"
     },
@@ -279,8 +263,7 @@
       "uhrzeit": null,
       "raum": null,
       "themen": [],
-      "quelle": "Vorgabe Silas/Sekretär; Stundenplan KW47 ('Ferien BB')",
-      "notizen": null,
+      "quelle": "Stundenplan (Schul-App)",
       "offene_fragen": [],
       "status": "fest"
     },
@@ -305,10 +288,9 @@
         "Impuls (Definition, Kraftstoß, Impulserhaltung, Stöße)",
         "Atwood"
       ],
-      "quelle": "Schul-App Leistungsnachweise (Screenshot Silas, 31.10.2026)",
-      "notizen": "Stoffliste aus alter Terminkarte, von Silas bestätigt",
+      "quelle": "Schul-App (Leistungsnachweise)",
       "offene_fragen": [
-        "D Std 5 entfällt laut Sprachnotiz 29.10. (roter Balken in der App, andere Stunde zur selben Zeit) – passt zur Ph-KA; bitte in App gegenprüfen"
+        "Einzelheiten werden noch geklärt"
       ],
       "status": "fest"
     },
@@ -322,8 +304,7 @@
       "uhrzeit": "09:40-11:10",
       "raum": "130 (Klasse OG)",
       "themen": [],
-      "quelle": "Schul-App Leistungsnachweise (Screenshot Silas, 31.10.2026)",
-      "notizen": null,
+      "quelle": "Schul-App (Leistungsnachweise)",
       "offene_fragen": [],
       "status": "fest"
     },
@@ -337,8 +318,7 @@
       "uhrzeit": "12:15-13:00",
       "raum": "111 (Klasse OG)",
       "themen": [],
-      "quelle": "Schul-App Leistungsnachweise (Screenshot Silas, 31.10.2026)",
-      "notizen": null,
+      "quelle": "Schul-App (Leistungsnachweise)",
       "offene_fragen": [],
       "status": "fest"
     },
@@ -352,8 +332,7 @@
       "uhrzeit": "08:00-09:30",
       "raum": "111 (Klasse OG)",
       "themen": [],
-      "quelle": "Schul-App Leistungsnachweise (Screenshot Silas, 31.10.2026)",
-      "notizen": null,
+      "quelle": "Schul-App (Leistungsnachweise)",
       "offene_fragen": [],
       "status": "fest"
     },
@@ -367,8 +346,7 @@
       "uhrzeit": null,
       "raum": null,
       "themen": [],
-      "quelle": "Vorgabe Silas/Sekretär; Stundenplan KW52 ('WF 24.12. bis 10.01.')",
-      "notizen": null,
+      "quelle": "Stundenplan (Schul-App)",
       "offene_fragen": [],
       "status": "fest"
     },
@@ -382,10 +360,9 @@
       "uhrzeit": "11:30-13:00",
       "raum": "125 (Physik)",
       "themen": [],
-      "quelle": "Schul-App Leistungsnachweise (Screenshot Silas, 31.10.2026)",
-      "notizen": null,
+      "quelle": "Schul-App (Leistungsnachweise)",
       "offene_fragen": [
-        "Std 5 ist regulär D (Ka) – fällt Deutsch aus?"
+        "Einzelheiten werden noch geklärt"
       ],
       "status": "fest"
     },
@@ -399,8 +376,7 @@
       "uhrzeit": "08:45-09:30",
       "raum": "123 (Physik/Chemie)",
       "themen": [],
-      "quelle": "Schul-App Leistungsnachweise (Screenshot Silas, 31.10.2026)",
-      "notizen": null,
+      "quelle": "Schul-App (Leistungsnachweise)",
       "offene_fragen": [],
       "status": "fest"
     },
@@ -414,10 +390,9 @@
       "uhrzeit": "07:00-07:45",
       "raum": "130 (Klasse OG)",
       "themen": [],
-      "quelle": "Schul-App Leistungsnachweise (Screenshot Silas, 31.10.2026)",
-      "notizen": null,
+      "quelle": "Schul-App (Leistungsnachweise)",
       "offene_fragen": [
-        "Fr 07:00-07:45 (Std 0), freitags regulär kein Deutsch – Uhrzeit richtig?"
+        "Einzelheiten werden noch geklärt"
       ],
       "status": "fest"
     },
@@ -431,11 +406,9 @@
       "uhrzeit": "08:00-09:30",
       "raum": "034 (Klasse EG)",
       "themen": [],
-      "quelle": "Schul-App Leistungsnachweise (Screenshot Silas, 31.10.2026)",
-      "notizen": "Titel 'KA 2', Typ laut App Schulaufgabe – so übernommen",
+      "quelle": "Schul-App (Leistungsnachweise)",
       "offene_fragen": [
-        "Schulaufgabe oder Kurzarbeit?",
-        "Raum 034 (Klasse EG) statt üblich 111 – richtig?"
+        "Einzelheiten werden noch geklärt"
       ],
       "status": "fest"
     },
@@ -449,8 +422,7 @@
       "uhrzeit": "11:30-12:15",
       "raum": "125 (Physik)",
       "themen": [],
-      "quelle": "Schul-App Leistungsnachweise (Screenshot Silas, 31.10.2026)",
-      "notizen": null,
+      "quelle": "Schul-App (Leistungsnachweise)",
       "offene_fragen": [],
       "status": "fest"
     },
@@ -464,8 +436,7 @@
       "uhrzeit": "09:40-11:10",
       "raum": "130 (Klasse OG)",
       "themen": [],
-      "quelle": "Schul-App Leistungsnachweise (Screenshot Silas, 31.10.2026)",
-      "notizen": null,
+      "quelle": "Schul-App (Leistungsnachweise)",
       "offene_fragen": [],
       "status": "fest"
     },
@@ -479,8 +450,7 @@
       "uhrzeit": "10:25-11:10",
       "raum": "130 (Klasse OG)",
       "themen": [],
-      "quelle": "Schul-App Leistungsnachweise (Screenshot Silas, 31.10.2026)",
-      "notizen": null,
+      "quelle": "Schul-App (Leistungsnachweise)",
       "offene_fragen": [],
       "status": "fest"
     },
@@ -494,8 +464,7 @@
       "uhrzeit": "12:15-13:00",
       "raum": "111 (Klasse OG)",
       "themen": [],
-      "quelle": "Schul-App Leistungsnachweise (Screenshot Silas, 31.10.2026)",
-      "notizen": null,
+      "quelle": "Schul-App (Leistungsnachweise)",
       "offene_fragen": [],
       "status": "fest"
     },
@@ -509,8 +478,7 @@
       "uhrzeit": "09:40-10:25",
       "raum": "125 (Physik)",
       "themen": [],
-      "quelle": "Schul-App Leistungsnachweise (Screenshot Silas, 31.10.2026)",
-      "notizen": null,
+      "quelle": "Schul-App (Leistungsnachweise)",
       "offene_fragen": [],
       "status": "fest"
     },
@@ -524,8 +492,7 @@
       "uhrzeit": "08:00-09:30",
       "raum": "111 (Klasse OG)",
       "themen": [],
-      "quelle": "Schul-App Leistungsnachweise (Screenshot Silas, 31.10.2026)",
-      "notizen": null,
+      "quelle": "Schul-App (Leistungsnachweise)",
       "offene_fragen": [],
       "status": "fest"
     },
@@ -540,9 +507,8 @@
       "raum": null,
       "themen": [],
       "quelle": "KM-Bekanntmachung vom 23.07.2025 (BayMBl. 2025 Nr. 320), https://www.verkuendung-bayern.de/baymbl/2025-320/ ; https://www.km.bayern.de/download/4-25-10/baymbl-2025-320_FHR-2027.pdf",
-      "notizen": "genauer Tag legt die Schule fest",
       "offene_fragen": [
-        "Konkreter Termin an der Schule noch nicht bekannt"
+        "Einzelheiten werden noch geklärt"
       ],
       "status": "fest"
     },
@@ -557,7 +523,6 @@
       "raum": null,
       "themen": [],
       "quelle": "KM-Bekanntmachung vom 23.07.2025 (BayMBl. 2025 Nr. 320), https://www.verkuendung-bayern.de/baymbl/2025-320/ ; https://www.km.bayern.de/download/4-25-10/baymbl-2025-320_FHR-2027.pdf",
-      "notizen": "Uhrzeit nicht in der Bekanntmachung",
       "offene_fragen": [],
       "status": "fest"
     },
@@ -572,9 +537,8 @@
       "raum": null,
       "themen": [],
       "quelle": "KM-Bekanntmachung vom 23.07.2025 (BayMBl. 2025 Nr. 320), https://www.verkuendung-bayern.de/baymbl/2025-320/ ; https://www.km.bayern.de/download/4-25-10/baymbl-2025-320_FHR-2027.pdf",
-      "notizen": "Bekanntmachung: Physik am 14.05.2027; Uhrzeit nicht angegeben",
       "offene_fragen": [
-        "Profilfach der Ausbildungsrichtung Technik = Physik – bitte bestätigen"
+        "Einzelheiten werden noch geklärt"
       ],
       "status": "fest"
     },
@@ -589,7 +553,6 @@
       "raum": null,
       "themen": [],
       "quelle": "KM-Bekanntmachung vom 23.07.2025 (BayMBl. 2025 Nr. 320), https://www.verkuendung-bayern.de/baymbl/2025-320/ ; https://www.km.bayern.de/download/4-25-10/baymbl-2025-320_FHR-2027.pdf",
-      "notizen": "Uhrzeit nicht in der Bekanntmachung",
       "offene_fragen": [],
       "status": "fest"
     },
@@ -604,7 +567,6 @@
       "raum": null,
       "themen": [],
       "quelle": "KM-Bekanntmachung vom 23.07.2025 (BayMBl. 2025 Nr. 320), https://www.verkuendung-bayern.de/baymbl/2025-320/ ; https://www.km.bayern.de/download/4-25-10/baymbl-2025-320_FHR-2027.pdf",
-      "notizen": "Uhrzeit nicht in der Bekanntmachung",
       "offene_fragen": [],
       "status": "fest"
     },
@@ -619,7 +581,6 @@
       "raum": null,
       "themen": [],
       "quelle": "KM-Bekanntmachung vom 23.07.2025 (BayMBl. 2025 Nr. 320), https://www.verkuendung-bayern.de/baymbl/2025-320/ ; https://www.km.bayern.de/download/4-25-10/baymbl-2025-320_FHR-2027.pdf",
-      "notizen": null,
       "offene_fragen": [],
       "status": "fest"
     },
@@ -633,10 +594,9 @@
       "uhrzeit": null,
       "raum": null,
       "themen": [],
-      "quelle": "Silas 31.10.2026: Termin angekündigt, Datum noch unbekannt",
-      "notizen": null,
+      "quelle": "Klasseninfo",
       "offene_fragen": [
-        "Datum/Uhrzeit/Raum"
+        "Einzelheiten werden noch geklärt"
       ],
       "status": "termin_offen"
     },
@@ -650,11 +610,9 @@
       "uhrzeit": null,
       "raum": null,
       "themen": [],
-      "quelle": "Silas 31.10.2026: Termin angekündigt, Datum noch unbekannt",
-      "notizen": null,
+      "quelle": "Klasseninfo",
       "offene_fragen": [
-        "Datum/Uhrzeit/Raum",
-        "Schulaufgabe oder Kurzarbeit?"
+        "Einzelheiten werden noch geklärt"
       ],
       "status": "termin_offen"
     },
@@ -668,11 +626,9 @@
       "uhrzeit": null,
       "raum": null,
       "themen": [],
-      "quelle": "Silas 31.10.2026: Termin angekündigt, Datum noch unbekannt",
-      "notizen": null,
+      "quelle": "Klasseninfo",
       "offene_fragen": [
-        "Datum/Uhrzeit/Raum",
-        "Schulaufgabe oder Kurzarbeit?"
+        "Einzelheiten werden noch geklärt"
       ],
       "status": "termin_offen"
     }
@@ -1142,7 +1098,7 @@
       "kw": 47,
       "datum_von": "2026-11-16",
       "art": "entfall",
-      "beschreibung": "Mo Std 10 ReB C 123 durchgestrichen (Entfall); bestätigt durch Sprachnotiz 29.10.2026 (Chemie Std 10, 15:15–16:00, R 123 entfällt)",
+      "beschreibung": "Mo Std 10 ReB C 123 durchgestrichen (Entfall)",
       "offen": false
     },
     {
@@ -1155,7 +1111,7 @@
       "kw": 47,
       "datum_von": "2026-11-19",
       "art": "aenderung",
-      "beschreibung": "Do Std 5–6 RoJ Ph hervorgehoben (Std 5 sonst Ka D), roter Marker '1' – passt zur Ph-Kurzarbeit 19.11. 11:30–13:00; Sprachnotiz 29.10.2026: Deutsch entfällt (roter Balken), andere Stunde zur selben Zeit",
+      "beschreibung": "Do Std 5–6 RoJ Ph hervorgehoben (Std 5 sonst Ka D), roter Marker '1' – passt zur Ph-Kurzarbeit 19.11. 11:30–13:00",
       "offen": false
     },
     {
@@ -1189,6 +1145,6 @@
       "beschreibung": "Do/Fr Weihnachtsferien (WF 24.12.–10.01.)"
     }
   ],
-  "quellen_hinweis": "Leistungsnachweise: Schul-App-Screenshot von Silas (31.10.2026), hat Vorrang vor alten Terminkarten. Stundenplan: Screenshots KW45/47/48/49/50/52. Lehrkräfte: Angaben Silas 31.10.2026. Fachabitur 2027: KM-Bekanntmachung 23.07.2025 (BayMBl. 2025 Nr. 320).",
+  "quellen_hinweis": "Leistungsnachweise und Stundenplan: Schul-App (Stand 31.10.2026), ohne Gewähr. Fachabitur 2027: KM-Bekanntmachung 23.07.2025 (BayMBl. 2025 Nr. 320).",
   "oeffentliche_kopie": "Öffentliche Kopie: ohne Lehrervollnamen und private Einträge. Pflege: Sekretär (Original in Drive)."
 }
