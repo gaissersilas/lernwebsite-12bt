@@ -1,6 +1,6 @@
 # Lernwebsite 12BT
 
-Statische Lern-Website der Klasse 12BT (BOS Technik, Schuljahr 2026/27): Termine der Leistungsnachweise, Ferien, Stundenplan-Änderungen, Fachabitur-Termine und Übungsaufgaben je Fach.
+Statische Lern-Website der Klasse 12BT (BOS Technik, Schuljahr 2026/27): Termine der Leistungsnachweise, Ferien, Fachabitur-Termine und Übungsaufgaben je Fach.
 
 **Website:** https://gaissersilas.github.io/lernwebsite-12bt/
 
@@ -16,7 +16,7 @@ Reines HTML/CSS/JS, kein Build-Schritt. GitHub Pages: Branch `main`, Ordner `/` 
 
 | Pfad | Inhalt | Pflege |
 |---|---|---|
-| `data/termine.json` | Termine, Fächer, Stundenplan (Schema siehe LIESMICH im Lernwebsite-Ordner, schema_version 1) | **Sekretär** |
+| `data/termine.json` | Termine (Leistungsnachweise, Ferien, Fachabitur) und Fächer (Schema siehe LIESMICH im Lernwebsite-Ordner, schema_version 1) | **Sekretär** |
 | `assets/app.js` → Funktion `start()` | Startseitenlogik (Prioritäten, Gewichtung, Countdown) | **Sekretär** |
 | `data/aufgaben/<slug>.json` | Übungsaufgaben je Fach (`id, fach, thema, buch, seite, aufgabe_nr, wortlaut, antwortoptionen[], richtige_option, loesung, loesung_quelle, termin_ids[]`) | **Nachhilfelehrer** |
 | `data/faecher.json` | Index Fachkürzel → URL-sicherer Dateiname (`M+T` → `M_T`), `aufgaben_vorhanden` | Sekretär (bei neuer Aufgabendatei `aufgaben_vorhanden: true` setzen) |
@@ -25,6 +25,7 @@ Reines HTML/CSS/JS, kein Build-Schritt. GitHub Pages: Branch `main`, Ordner `/` 
 
 Regeln:
 - `data/termine.json` ist eine **öffentliche Kopie**: keine Lehrervollnamen (nur Kürzel), keine privaten Einträge, keine Drive-Links. Die Website verlinkt den Hefteinträge-Ordner nicht.
+- **Kein Stundenplan öffentlich** (nicht für alle in der Klasse gleich): `stundenplan`, `stundenplan_ausnahmen`, `stundenraster` und Stundenplan-Änderungen gehören nicht ins Repo und nicht auf die Website.
 - Einträge mit `status: "termin_offen"` (Datum `null`) erscheinen als „Termin folgt“.
 - Aufgaben werden einem Termin über `termin_ids` zugeordnet (zusätzlich über `themen` ↔ `thema`).
 - Fehlt eine Aufgabendatei, zeigt der Lernraum „Aufgaben folgen“.

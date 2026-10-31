@@ -102,7 +102,6 @@
     var chrono = ln.slice().sort(function (a, b) { return a.datum_von < b.datum_von ? -1 : a.datum_von > b.datum_von ? 1 : 0; });
     var offen = T.filter(function (t) { return t.status === "termin_offen" || !t.datum_von; });
     var frei = T.filter(function (t) { return (t.typ === "ferien" || t.typ === "feiertag") && t.datum_von && (t.datum_bis || t.datum_von) >= heute; });
-    var aus = (S.termine.stundenplan_ausnahmen || []).filter(function (a) { return (a.art === "entfall" || a.art === "aenderung") && a.datum_von && (a.datum_bis || a.datum_von) >= heute; });
     var abi = T.filter(function (t) { return t.typ === "abitur" && t.datum_von; });
 
     var h = '<section class="hero"><h1>Aktuelle Prioritäten</h1><p>Stand heute: <strong>' + esc(wd(heute) + " " + de(heute)) + "</strong>. Sortiert nach Nähe und Gewicht (Schulaufgabe/Fachabitur vor Kurzarbeit).</p></section>";
@@ -112,7 +111,6 @@
       return "<tr><td>" + esc(datumText(t)) + "</td><td>" + (uhrzeit(t) || "–") + "</td><td>" + fachLink(t.fach, fachName(t.fach)) + "</td><td>" + esc(TYP_LABEL[t.typ] || t.typ) + (t.titel ? " (" + esc(t.titel) + ")" : "") + "</td><td>" + esc(t.raum || "–") + "</td><td>" + esc(countdown(t, heute)) + "</td></tr>";
     }), ["Datum", "Uhrzeit", "Fach", "Art", "Raum", "Countdown"]) + "</section>";
     h += '<section aria-labelledby="h-frei"><h2 id="h-frei">Ferien und freie Tage</h2><ul class="clean">' + (frei.length ? frei.map(function (t) { return "<li><strong>" + esc(datumText(t)) + "</strong> – " + esc(t.titel) + " (" + esc(countdown(t, heute)) + ")</li>"; }).join("") : '<li class="muted">Keine Einträge.</li>') + "</ul></section>";
-    h += '<section aria-labelledby="h-aus"><h2 id="h-aus">Stundenplan-Änderungen</h2><ul class="clean">' + (aus.length ? aus.map(function (a) { return "<li><strong>" + esc(wd(a.datum_von) + " " + de(a.datum_von)) + "</strong> – " + esc(a.art === "entfall" ? "Entfall" : "Änderung") + ": " + esc(a.beschreibung) + (a.offen ? ' <span class="badge">unbestätigt</span>' : "") + "</li>"; }).join("") : '<li class="muted">Keine bekannten Änderungen.</li>') + "</ul></section>";
     h += '<section aria-labelledby="h-abi"><h2 id="h-abi">Fachabitur 2027</h2>' + tabelle(abi.map(function (t) { return "<tr><td>" + esc(datumText(t)) + "</td><td>" + esc(t.titel) + "</td><td>" + esc(countdown(t, heute)) + "</td></tr>"; }), ["Datum", "Prüfung", "Countdown"]);
     var q = abi.length ? (abi[0].quelle || "") : "";
     var m = q.match(/https:\/\/www\.verkuendung-bayern\.de\/[^\s;]+/);

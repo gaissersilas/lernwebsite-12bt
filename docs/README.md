@@ -55,9 +55,6 @@ Zu den Hefteinträgen entsteht eine Lern-Website mit Terminen und Übungsaufgabe
 
 Angekündigt, Termin noch offen: Schulaufgabe Mathematik; Schulaufgabe oder Kurzarbeit in Technologie und in Geschichte, Politik und Gesellschaft.
 
-## Stundenplan-Änderungen
-- Mo 16.11.2026: Chemie 10. Stunde (15:15–16:00, Raum 123) entfällt.
-- Do 19.11.2026: Deutsch 5. Stunde entfällt (stattdessen Physik, 1. KA PH).
 
 ## Fachabitur 2027
 Offizielle Termine der schriftlichen Fachabiturprüfung an FOS/BOS Bayern laut Bekanntmachung des Kultusministeriums vom 23.07.2025 (BayMBl. 2025 Nr. 320): Deutsch Mi 12.05.2027, Profilfach (Technik: Physik) Fr 14.05.2027, Englisch Di 01.06.2027, Mathematik Do 03.06.2027; mündliche Gruppenprüfung Englisch im Zeitraum 12.–30.04.2027; Zeugnisdatum Fr 09.07.2027.
