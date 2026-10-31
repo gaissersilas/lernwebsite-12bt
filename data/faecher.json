@@ -108,7 +108,7 @@
         "SDa"
       ],
       "aufgaben_datei": "data/aufgaben/M_T.json",
-      "aufgaben_vorhanden": false,
+      "aufgaben_vorhanden": true,
       "drive_dateiname": "M+T.json"
     }
   ]

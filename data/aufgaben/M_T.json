@@ -1,0 +1,216 @@
+{
+  "fach": "M+T",
+  "aktualisiert": "2026-10-31",
+  "aufgaben": [
+    {
+      "id": "mt-b2-260-1",
+      "fach": "M+T",
+      "thema": "Trigonometrische Funktionen",
+      "buch": "Mathematik – Berufliche Oberschule Bayern, Technik Band 2",
+      "seite": "260",
+      "aufgabe_nr": "6.2.1 Alles klar? Aufgabe 1",
+      "wortlaut": "Einer der Winkel in einem rechtwinkligen Dreieck hat eine Größe von 50°. Seine Gegenkathete ist 5 LE lang. Berechnen Sie die Länge der Hypotenuse.",
+      "antwortoptionen": [
+        "h = 5 LE / cos(50°) ≈ 7,779 LE",
+        "h = 5 LE · tan(50°) ≈ 5,959 LE",
+        "h = 5 LE · sin(50°) ≈ 3,830 LE",
+        "h = 5 LE / sin(50°) ≈ 6,527 LE"
+      ],
+      "richtige_option": "h = 5 LE / sin(50°) ≈ 6,527 LE",
+      "loesung": "Für die Hypotenuse h gilt sin(50°) = 5 LE / h, also\nh = 5 LE / sin(50°) ≈ 6,527 LE.",
+      "loesung_quelle": "Mathematik – Berufliche Oberschule Bayern, Technik Band 2, Anhang „Lösungen der „Alles klar?“-Aufgaben“ S. 337, Lösungen zu 6.2, Seite 260, Aufgabe 1",
+      "termin_ids": [
+        "2026-11-13-mt-ka1"
+      ]
+    },
+    {
+      "id": "mt-b2-260-2",
+      "fach": "M+T",
+      "thema": "Trigonometrische Funktionen",
+      "buch": "Mathematik – Berufliche Oberschule Bayern, Technik Band 2",
+      "seite": "260",
+      "aufgabe_nr": "6.2.1 Alles klar? Aufgabe 2",
+      "wortlaut": "In einem rechtwinkligen Dreieck ist die Ankathete eines 60°-Winkels 7 LE lang. Berechnen Sie die Länge der Gegenkathete dieses Winkels.",
+      "antwortoptionen": [
+        "g = 7 LE / cos(60°) = 14 LE",
+        "g = 7 LE / tan(60°) ≈ 4,041 LE",
+        "g = sin(60°) · 7 LE ≈ 6,062 LE",
+        "g = tan(60°) · 7 LE ≈ 12,124 LE"
+      ],
+      "richtige_option": "g = tan(60°) · 7 LE ≈ 12,124 LE",
+      "loesung": "Für die Gegenkathete g gilt tan(60°) = g / 7 LE, also\ng = tan(60°) · 7 LE ≈ 12,124 LE.",
+      "loesung_quelle": "Mathematik – Berufliche Oberschule Bayern, Technik Band 2, Anhang „Lösungen der „Alles klar?“-Aufgaben“ S. 337, Lösungen zu 6.2, Seite 260, Aufgabe 2",
+      "termin_ids": [
+        "2026-11-13-mt-ka1"
+      ]
+    },
+    {
+      "id": "mt-b2-261-1",
+      "fach": "M+T",
+      "thema": "Trigonometrische Funktionen",
+      "buch": "Mathematik – Berufliche Oberschule Bayern, Technik Band 2",
+      "seite": "261",
+      "aufgabe_nr": "6.2.1 Alles klar? Aufgabe 1",
+      "wortlaut": "Berechnen Sie zu Punkt P, der im 1. Quadranten auf dem Einheitskreis liegt, den zugehörigen Winkel α und geben Sie die fehlende Koordinate an.\na) P(0|a)   b) P(b|1)   c) P(0,5|c)   d) P(d|0,5)",
+      "antwortoptionen": [
+        "a) α = 90°; a = 0   b) α = 0°; b = 1   c) α = 30°; c = √3/2   d) α = 60°; d = √3/2",
+        "a) α = 0°; a = 1   b) α = 90°; b = 0   c) α = 30°; c = √3/2   d) α = 60°; d = √3/2",
+        "a) α = 90°; a = 1   b) α = 45°; b = 1   c) α = 60°; c = 0,5   d) α = 30°; d = 0,5",
+        "a) α = 90°; a = 1   b) α = 90°; b = 0   c) α = 60°; c = √3/2   d) α = 30°; d = √3/2"
+      ],
+      "richtige_option": "a) α = 90°; a = 1   b) α = 90°; b = 0   c) α = 60°; c = √3/2   d) α = 30°; d = √3/2",
+      "loesung": "a) α = 90°; a = 1\nb) α = 90°; b = 0\nc) α = 60°; c = √3/2\nd) α = 30°; d = √3/2",
+      "loesung_quelle": "Mathematik – Berufliche Oberschule Bayern, Technik Band 2, Anhang „Lösungen der „Alles klar?“-Aufgaben“ S. 337, Lösungen zu 6.2, Seite 261, Aufgabe 1",
+      "termin_ids": [
+        "2026-11-13-mt-ka1"
+      ]
+    },
+    {
+      "id": "mt-b2-261-2",
+      "fach": "M+T",
+      "thema": "Trigonometrische Funktionen",
+      "buch": "Mathematik – Berufliche Oberschule Bayern, Technik Band 2",
+      "seite": "261",
+      "aufgabe_nr": "6.2.1 Alles klar? Aufgabe 2",
+      "wortlaut": "Berechnen Sie zu den Winkeln α, die Sie bei Aufgabe 1 berechnet haben, den Wert tan(α).",
+      "antwortoptionen": [
+        "a) 0   b) 0   c) tan(60°) = √3   d) tan(30°) = ⅓√3",
+        "a) 1   b) 1   c) tan(60°) = √3/2   d) tan(30°) = 1/2",
+        "a) nicht definiert   b) nicht definiert   c) tan(60°) = √3   d) tan(30°) = ⅓√3",
+        "a) nicht definiert   b) nicht definiert   c) tan(60°) = ⅓√3   d) tan(30°) = √3"
+      ],
+      "richtige_option": "a) nicht definiert   b) nicht definiert   c) tan(60°) = √3   d) tan(30°) = ⅓√3",
+      "loesung": "a) Nicht definiert.\nb) Nicht definiert.\nc) tan(60°) = √3\nd) tan(30°) = ⅓√3",
+      "loesung_quelle": "Mathematik – Berufliche Oberschule Bayern, Technik Band 2, Anhang „Lösungen der „Alles klar?“-Aufgaben“ S. 337, Lösungen zu 6.2, Seite 261, Aufgabe 2",
+      "termin_ids": [
+        "2026-11-13-mt-ka1"
+      ]
+    },
+    {
+      "id": "mt-b2-262",
+      "fach": "M+T",
+      "thema": "Trigonometrische Funktionen",
+      "buch": "Mathematik – Berufliche Oberschule Bayern, Technik Band 2",
+      "seite": "262",
+      "aufgabe_nr": "6.2.1 Alles klar? (Sinus und Kosinus für beliebig große Winkel)",
+      "wortlaut": "Geben Sie jeweils einen Winkel α ∈ [0°; 360°] an, für den Folgendes gilt:\na) sin(−100°) = sin(α)   b) cos(400°) = cos(α)   c) sin(−800°) = sin(α)   d) cos(3600°) = cos(α)",
+      "antwortoptionen": [
+        "a) 260°   b) 140°   c) 280°   d) 90°",
+        "a) 80°   b) 40°   c) 100°   d) 0°",
+        "a) 100°   b) 40°   c) 80°   d) 0°",
+        "a) 260°   b) 40°   c) 280°   d) 0°"
+      ],
+      "richtige_option": "a) 260°   b) 40°   c) 280°   d) 0°",
+      "loesung": "a) α = −100° + 360° = 260°\nb) α = 400° − 360° = 40°\nc) α = −800° + 3 · 360° = 280°\nd) α = 3600° − 10 · 360° = 0°",
+      "loesung_quelle": "Mathematik – Berufliche Oberschule Bayern, Technik Band 2, Anhang „Lösungen der „Alles klar?“-Aufgaben“ S. 337, Lösungen zu 6.2, Seite 262",
+      "termin_ids": [
+        "2026-11-13-mt-ka1"
+      ]
+    },
+    {
+      "id": "mt-b2-263-1",
+      "fach": "M+T",
+      "thema": "Trigonometrische Funktionen",
+      "buch": "Mathematik – Berufliche Oberschule Bayern, Technik Band 2",
+      "seite": "263",
+      "aufgabe_nr": "6.2.1 Alles klar? Aufgabe 1",
+      "wortlaut": "Geben Sie das zugehörige Bogenmaß an:\na) α = 90°   b) α = 120°   c) α = 230°   d) α = 400°",
+      "antwortoptionen": [
+        "a) π ≈ 3,14   b) 4/3 π ≈ 4,19   c) 23/9 π ≈ 8,03   d) 40/9 π ≈ 13,96",
+        "a) π/4 ≈ 0,79   b) ⅓π ≈ 1,05   c) 23/36 π ≈ 2,01   d) 10/9 π ≈ 3,49",
+        "a) π/2 ≈ 1,57   b) ⅔π ≈ 2,09   c) 13/18 π ≈ 2,27   d) 2/9 π ≈ 0,70",
+        "a) π/2 ≈ 1,57   b) ⅔π ≈ 2,09   c) 23/18 π ≈ 4,01   d) 20/9 π ≈ 6,98"
+      ],
+      "richtige_option": "a) π/2 ≈ 1,57   b) ⅔π ≈ 2,09   c) 23/18 π ≈ 4,01   d) 20/9 π ≈ 6,98",
+      "loesung": "a) x = 90°/360° · 2π = π/2 ≈ 1,57\nb) x = 120°/360° · 2π = ⅔π ≈ 2,09\nc) x = 230°/360° · 2π = 23/18 π ≈ 4,01\nd) x = 400°/360° · 2π = 20/9 π ≈ 6,98",
+      "loesung_quelle": "Mathematik – Berufliche Oberschule Bayern, Technik Band 2, Anhang „Lösungen der „Alles klar?“-Aufgaben“ S. 337, Lösungen zu 6.2, Seite 263, Aufgabe 1",
+      "termin_ids": [
+        "2026-11-13-mt-ka1"
+      ]
+    },
+    {
+      "id": "mt-b2-263-2",
+      "fach": "M+T",
+      "thema": "Trigonometrische Funktionen",
+      "buch": "Mathematik – Berufliche Oberschule Bayern, Technik Band 2",
+      "seite": "263",
+      "aufgabe_nr": "6.2.1 Alles klar? Aufgabe 2",
+      "wortlaut": "Geben Sie das zugehörige Gradmaß an:\na) x = π/4   b) x = 2   c) x = π/16   d) x = 1,35",
+      "antwortoptionen": [
+        "a) 45°   b) ≈ 114,59°   c) 11,25°   d) ≈ 77,35°",
+        "a) 22,5°   b) ≈ 229,18°   c) 5,625°   d) ≈ 154,70°",
+        "a) 90°   b) ≈ 57,30°   c) 22,5°   d) ≈ 38,68°",
+        "a) 45°   b) 2°   c) 11,25°   d) 1,35°"
+      ],
+      "richtige_option": "a) 45°   b) ≈ 114,59°   c) 11,25°   d) ≈ 77,35°",
+      "loesung": "a) α = (π/4)/(2π) · 360° = 45°\nb) α = 2/(2π) · 360° = 360°/π ≈ 114,59°\nc) α = (π/16)/(2π) · 360° = 11,25°\nd) α = 1,35/(2π) · 360° = 243°/π ≈ 77,35°",
+      "loesung_quelle": "Mathematik – Berufliche Oberschule Bayern, Technik Band 2, Anhang „Lösungen der „Alles klar?“-Aufgaben“ S. 337, Lösungen zu 6.2, Seite 263, Aufgabe 2",
+      "termin_ids": [
+        "2026-11-13-mt-ka1"
+      ]
+    },
+    {
+      "id": "mt-b2-268-periode",
+      "fach": "M+T",
+      "thema": "Trigonometrische Funktionen",
+      "buch": "Mathematik – Berufliche Oberschule Bayern, Technik Band 2",
+      "seite": "268",
+      "aufgabe_nr": "6.2.2 Alles klar? (Veränderung der Periodenlänge)",
+      "wortlaut": "Ermitteln Sie die Periodenlänge der Funktionen f und g mit f(x) = sin(3x) und g(x) = sin(x/π).",
+      "antwortoptionen": [
+        "f: 6π   g: 2",
+        "f: 2π/3   g: 2π²",
+        "f: 6π   g: 2π²",
+        "f: 2π/3   g: 2"
+      ],
+      "richtige_option": "f: 2π/3   g: 2π²",
+      "loesung": "Periodenlänge von f: 2π/3\nPeriodenlänge von g: 2π/(1/π) = 2π²",
+      "loesung_quelle": "Mathematik – Berufliche Oberschule Bayern, Technik Band 2, Anhang „Lösungen der „Alles klar?“-Aufgaben“ S. 338, Lösungen zu 6.2, Seite 268 (Mitte)",
+      "termin_ids": [
+        "2026-11-13-mt-ka1"
+      ]
+    },
+    {
+      "id": "mt-b2-268-verschiebung",
+      "fach": "M+T",
+      "thema": "Trigonometrische Funktionen",
+      "buch": "Mathematik – Berufliche Oberschule Bayern, Technik Band 2",
+      "seite": "268",
+      "aufgabe_nr": "6.2.2 Alles klar? (Verschiebung des Graphen entlang der x-Achse)",
+      "wortlaut": "Vergleichen Sie den Graphen der Funktion h mit h(x) = sin(x − π) mit dem Graphen der Funktion g mit g(x) = sin(x + π) (▸ Beispiel 11).",
+      "antwortoptionen": [
+        "Die Graphen sind verschieden: Der Graph von g hat die doppelte Periodenlänge des Graphen von h.",
+        "Die Graphen sind verschieden: Der Graph von g ist gegenüber dem Graphen von h um π nach links verschoben.",
+        "Beide Graphen sind gleich; der Graph von g entsteht durch Verschiebung des Graphen von h um 2π nach links.",
+        "Die Graphen sind verschieden: Der Graph von g entsteht durch Spiegelung des Graphen von h an der x-Achse."
+      ],
+      "richtige_option": "Beide Graphen sind gleich; der Graph von g entsteht durch Verschiebung des Graphen von h um 2π nach links.",
+      "loesung": "Beide Graphen sind gleich, denn die Funktionen sind identisch. Der Graph von g entsteht durch Verschiebung des Graphen von h um 2π nach links.",
+      "loesung_quelle": "Mathematik – Berufliche Oberschule Bayern, Technik Band 2, Anhang „Lösungen der „Alles klar?“-Aufgaben“ S. 338, Lösungen zu 6.2, Seite 268 (unten)",
+      "termin_ids": [
+        "2026-11-13-mt-ka1"
+      ]
+    },
+    {
+      "id": "mt-b2-271-1",
+      "fach": "M+T",
+      "thema": "Trigonometrische Funktionen",
+      "buch": "Mathematik – Berufliche Oberschule Bayern, Technik Band 2",
+      "seite": "271",
+      "aufgabe_nr": "6.2.3 Alles klar? Aufgabe 1",
+      "wortlaut": "Geben Sie alle Lösungen der Gleichung cos(x) = 0,7 im Intervall [0; 10] an.",
+      "antwortoptionen": [
+        "x ≈ 0,7954; x ≈ 5,4878; x ≈ 7,0786; x ≈ 11,7710",
+        "x ≈ 0,7954; x ≈ 2,3462; x ≈ 7,0786",
+        "x ≈ 0,7954; x ≈ 5,4878; x ≈ 7,0786",
+        "nur x ≈ 0,7954"
+      ],
+      "richtige_option": "x ≈ 0,7954; x ≈ 5,4878; x ≈ 7,0786",
+      "loesung": "Taschenrechner: x₁ ≈ 0,7954\n2. Grundlösung: x₂ ≈ −0,7954\nAlle Lösungen x ≈ ±0,7954 + 2kπ mit k ∈ ℤ.\nAlle Lösungen aus dem Intervall [0; 10]:\n0,7954 und 5,4878 sowie 7,0786.",
+      "loesung_quelle": "Mathematik – Berufliche Oberschule Bayern, Technik Band 2, Anhang „Lösungen der „Alles klar?“-Aufgaben“ S. 338, Lösungen zu 6.2, Seite 271, Aufgabe 1",
+      "termin_ids": [
+        "2026-11-13-mt-ka1"
+      ]
+    }
+  ]
+}
