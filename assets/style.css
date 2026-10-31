@@ -25,6 +25,11 @@ nav a[aria-current=page]{background:var(--accent);color:var(--accent-fg);border-
 main{flex:1;width:100%;max-width:1040px;margin:0 auto;padding:1rem}
 main:focus{outline:none}
 h1,h2,h3{font-family:var(--head);line-height:1.25}
+/* Normalziffern statt Mediävalziffern ("1" sonst wie "ı") */
+html,body,h1,h2,h3,h4,.brand,.kicker,.kz,.prio-count,.badge,nav,table,button,input,select,code{font-variant-numeric:lining-nums;font-feature-settings:"lnum" 1}
+*{font-variant-numeric:lining-nums}
+.themen-vermutet{margin:.35rem 0;padding:.3rem .55rem;border:1px dashed var(--accent);border-radius:6px;font-style:italic;font-size:.92em;background:transparent}
+.themen-vermutet .vm-label{font-style:normal;font-weight:600;font-size:.85em;text-transform:uppercase;letter-spacing:.03em;opacity:.85}
 h1{font-size:1.8rem;margin:.5rem 0}
 h2{font-size:1.3rem;margin:2rem 0 .7rem;padding-bottom:.25rem;border-bottom:2px solid var(--line)}
 h3{font-size:1.05rem;margin:.2rem 0 .3rem}

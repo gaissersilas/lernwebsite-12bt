@@ -35,13 +35,13 @@
   function fachBySlug(s) { for (var i = 0; i < S.faecher.length; i++) if (S.faecher[i].slug === s) return S.faecher[i]; return null; }
   function fachName(k) { var f = fachById(k); return f ? f.name : (k || "–"); }
   function fachLink(k, txt) { var f = fachById(k); return f ? '<a href="#/fach/' + encodeURIComponent(f.slug) + '">' + esc(txt || f.name) + "</a>" : esc(txt || k || "–"); }
-  function uhrzeit(t) { return t.uhrzeit ? esc(t.uhrzeit.replace("-", "–")) : ""; }
+  function vermutet(t) { return (t.themen_vermutet && t.themen_vermutet.length) ? '<p class="themen-vermutet"><span class="vm-label">vermutet (noch nicht bestätigt):</span> ' + t.themen_vermutet.map(esc).join(", ") + "</p>" : ""; }
   function alleTermine() { return (S.termine && Array.isArray(S.termine.termine)) ? S.termine.termine : []; }
   function istFest(t) { return t.status !== "termin_offen" && !!t.datum_von; }
 
   function passendeAufgaben(t) {
     var liste = S.aufgaben[t.fach] || [];
-    var themen = (t.themen || []).map(function (x) { return String(x).toLowerCase(); });
+    var themen = (t.themen || []).concat(t.themen_vermutet || []).map(function (x) { return String(x).toLowerCase(); });
     return liste.filter(function (a) {
       if ((a.termin_ids || []).indexOf(t.id) >= 0) return true;
       if (!themen.length || !a.thema) return false;
@@ -80,8 +80,9 @@
     var h = '<article class="' + cls + '"><div class="prio-count" aria-label="Countdown">' + esc(countdown(t, heute)) + "</div>";
     h += "<h3>" + fachLink(t.fach, fachName(t.fach)) + " · " + esc(TYP_LABEL[t.typ] || t.typ) + "</h3>";
     h += '<p class="meta">' + esc(t.titel || "") + "</p>";
-    h += '<p class="meta"><strong>' + esc(datumText(t)) + "</strong>" + (t.uhrzeit ? " · " + uhrzeit(t) + " Uhr" : "") + (t.raum ? " · Raum " + esc(t.raum) : "") + "</p>";
+    h += '<p class="meta"><strong>' + esc(datumText(t)) + "</strong></p>";
     if (t.themen && t.themen.length) h += '<p class="themen">Themen: ' + t.themen.map(esc).join(", ") + "</p>";
+    h += vermutet(t);
     if (mitAufgaben) {
       if (auf.length && f) h += '<p class="aufg"><a href="#/fach/' + encodeURIComponent(f.slug) + "/" + encodeURIComponent(auf[0].id) + '">' + auf.length + (auf.length === 1 ? " passende Aufgabe" : " passende Aufgaben") + " im Lernraum üben →</a></p>";
       else h += '<p class="aufg muted">Aufgaben folgen.</p>';
@@ -108,8 +109,8 @@
     h += '<section aria-labelledby="h-prio"><h2 id="h-prio" class="sr-only">Nächste Leistungsnachweise</h2><div class="prio-grid">' + (prio.length ? prio.map(function (t) { return terminKarte(t, heute, true); }).join("") : '<p class="muted">Keine anstehenden Leistungsnachweise.</p>') + "</div></section>";
     if (offen.length) h += '<section aria-labelledby="h-offen"><h2 id="h-offen">Angekündigt – Termin folgt</h2><ul class="clean">' + offen.map(function (t) { return "<li>" + fachLink(t.fach, fachName(t.fach)) + ": " + esc(t.titel || TYP_LABEL[t.typ]) + ' <span class="badge">Termin folgt</span></li>'; }).join("") + "</ul></section>";
     h += '<section aria-labelledby="h-alle"><h2 id="h-alle">Alle kommenden Leistungsnachweise</h2>' + tabelle(chrono.map(function (t) {
-      return "<tr><td>" + esc(datumText(t)) + "</td><td>" + (uhrzeit(t) || "–") + "</td><td>" + fachLink(t.fach, fachName(t.fach)) + "</td><td>" + esc(TYP_LABEL[t.typ] || t.typ) + (t.titel ? " (" + esc(t.titel) + ")" : "") + "</td><td>" + esc(t.raum || "–") + "</td><td>" + esc(countdown(t, heute)) + "</td></tr>";
-    }), ["Datum", "Uhrzeit", "Fach", "Art", "Raum", "Countdown"]) + "</section>";
+      return "<tr><td>" + esc(datumText(t)) + "</td><td>" + fachLink(t.fach, fachName(t.fach)) + "</td><td>" + esc(TYP_LABEL[t.typ] || t.typ) + (t.titel ? " (" + esc(t.titel) + ")" : "") + "</td><td>" + esc(countdown(t, heute)) + "</td></tr>";
+    }), ["Datum", "Fach", "Art", "Countdown"]) + "</section>";
     h += '<section aria-labelledby="h-frei"><h2 id="h-frei">Ferien und freie Tage</h2><ul class="clean">' + (frei.length ? frei.map(function (t) { return "<li><strong>" + esc(datumText(t)) + "</strong> – " + esc(t.titel) + " (" + esc(countdown(t, heute)) + ")</li>"; }).join("") : '<li class="muted">Keine Einträge.</li>') + "</ul></section>";
     h += '<section aria-labelledby="h-abi"><h2 id="h-abi">Fachabitur 2027</h2>' + tabelle(abi.map(function (t) { return "<tr><td>" + esc(datumText(t)) + "</td><td>" + esc(t.titel) + "</td><td>" + esc(countdown(t, heute)) + "</td></tr>"; }), ["Datum", "Prüfung", "Countdown"]);
     var q = abi.length ? (abi[0].quelle || "") : "";
@@ -149,7 +150,7 @@
     h += "</section>";
     h += '<section aria-labelledby="h-ft"><h2 id="h-ft">Termine</h2>';
     if (!komm.length && !offen.length) h += '<p class="muted">Keine kommenden Termine bekannt.</p>';
-    h += '<ul class="clean">' + komm.map(function (t) { return "<li><strong>" + esc(datumText(t)) + "</strong>" + (t.uhrzeit ? ", " + uhrzeit(t) + " Uhr" : "") + (t.raum ? ", Raum " + esc(t.raum) : "") + " – " + esc(TYP_LABEL[t.typ] || t.typ) + (t.titel ? " (" + esc(t.titel) + ")" : "") + ' <span class="badge">' + esc(countdown(t, heute)) + "</span></li>"; }).join("")
+    h += '<ul class="clean">' + komm.map(function (t) { return "<li><strong>" + esc(datumText(t)) + "</strong> – " + esc(TYP_LABEL[t.typ] || t.typ) + (t.titel ? " (" + esc(t.titel) + ")" : "") + ' <span class="badge">' + esc(countdown(t, heute)) + "</span>" + vermutet(t) + "</li>"; }).join("")
       + offen.map(function (t) { return "<li>" + esc(t.titel || TYP_LABEL[t.typ]) + ' <span class="badge">Termin folgt</span></li>'; }).join("") + "</ul>";
     if (verg.length) h += "<details><summary>Vergangene Termine (" + verg.length + ")</summary><ul class=\"clean\">" + verg.map(function (t) { return "<li>" + esc(datumText(t)) + " – " + esc(TYP_LABEL[t.typ] || t.typ) + (t.titel ? " (" + esc(t.titel) + ")" : "") + "</li>"; }).join("") + "</ul></details>";
     h += "</section>";

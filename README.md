@@ -26,6 +26,8 @@ Reines HTML/CSS/JS, kein Build-Schritt. GitHub Pages: Branch `main`, Ordner `/` 
 Regeln:
 - `data/termine.json` ist eine **öffentliche Kopie**: keine Lehrervollnamen (nur Kürzel), keine privaten Einträge, keine Drive-Links. Die Website verlinkt den Hefteinträge-Ordner nicht.
 - **Kein Stundenplan öffentlich** (nicht für alle in der Klasse gleich): `stundenplan`, `stundenplan_ausnahmen`, `stundenraster` und Stundenplan-Änderungen gehören nicht ins Repo und nicht auf die Website.
+- **Keine Uhrzeit, kein Raum öffentlich** (verraten den Stundenplan): Felder `uhrzeit` und `raum` werden beim Sync entfernt; nur das Datum erscheint.
+- `themen_vermutet` (+ `themen_vermutet_quelle`): vermutete, noch nicht bestätigte Themen; die Website zeigt sie getrennt als „vermutet (noch nicht bestätigt)“.
 - Einträge mit `status: "termin_offen"` (Datum `null`) erscheinen als „Termin folgt“.
 - Aufgaben werden einem Termin über `termin_ids` zugeordnet (zusätzlich über `themen` ↔ `thema`).
 - Fehlt eine Aufgabendatei, zeigt der Lernraum „Aufgaben folgen“.
