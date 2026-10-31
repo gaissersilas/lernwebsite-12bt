@@ -1,0 +1,258 @@
+{
+  "fach": "Ph",
+  "aktualisiert": "2026-10-31",
+  "aufgaben": [
+    {
+      "id": "ph-k07-a02",
+      "fach": "Ph",
+      "thema": "Impuls und Impulserhaltung – Stöße (Impulserhaltungssatz, Gesamtimpuls, Impulsplan)",
+      "buch": "Physik – FOS Technik Bayern Jahrgangsstufe 11",
+      "seite": "111",
+      "aufgabe_nr": "7.5 Aufgabe 2",
+      "wortlaut": "2. Erhaltung des Gesamtimpulses\nEin Fußball zertrümmert eine Glasscheibe (Bild 2). Erklären Sie, wie sich dabei der Gesamtimpuls des Systems Fußball und Glasscheibe verhält.",
+      "antwortoptionen": [
+        "Der Gesamtimpuls ist null, weil die Glasscheibe vorher ruht.",
+        "Der Gesamtimpuls nimmt ab, weil der Fußball langsamer wird.",
+        "Der Gesamtimpuls nimmt zu, weil die Glassplitter zusätzlichen Impuls erhalten.",
+        "Der Gesamtimpuls bleibt gleich; der Fußball gibt Impuls an die Glasscheibe (Bruchstücke) ab."
+      ],
+      "richtige_option": "Der Gesamtimpuls bleibt gleich; der Fußball gibt Impuls an die Glasscheibe (Bruchstücke) ab.",
+      "loesung": "Der Gesamtimpuls bleibt vor und nach dem Stoß gleich. Der Impuls des Fußballs sinkt beim Durchgang durch die Scheibe, da er langsamer wird. Es erfolgt ein Impulsübertrag an die Glasscheibe. Die entsprechende Kraft überwindet die zwischenmolekularen Bindungskräfte und beschleunigt die Bruchstücke.",
+      "loesung_quelle": "Physik – FOS Technik Bayern Jahrgangsstufe 11, Lösungsteil S. 158, „7 Lösungen zu Kapitel 7“, Aufgabe 2",
+      "termin_ids": [
+        "2026-11-19-ph-ka1"
+      ]
+    },
+    {
+      "id": "ph-k07-a03",
+      "fach": "Ph",
+      "thema": "Impuls und Impulserhaltung – Stöße (Impulserhaltungssatz, Gesamtimpuls, Impulsplan)",
+      "buch": "Physik – FOS Technik Bayern Jahrgangsstufe 11",
+      "seite": "111",
+      "aufgabe_nr": "7.5 Aufgabe 3",
+      "wortlaut": "3. Impulserhaltung beim Fußball\nBerechnen Sie den Betrag des Impulses, den ein Fußballtorwart beim Halten eines Elfmeters aufnehmen muss. Weltklassespieler beschleunigen den mindestens 410 g schweren Fußball auf bis zu 120 km/h.",
+      "antwortoptionen": [
+        "p = 49 N·s",
+        "p = 14 N·s",
+        "p = 4,1 N·s",
+        "p = 1,4 N·s"
+      ],
+      "richtige_option": "p = 14 N·s",
+      "loesung": "p = m · v = 0,410 kg · 120/3,6 m/s = 14 N·s",
+      "loesung_quelle": "Physik – FOS Technik Bayern Jahrgangsstufe 11, Lösungsteil S. 158, „7 Lösungen zu Kapitel 7“, Aufgabe 3",
+      "termin_ids": [
+        "2026-11-19-ph-ka1"
+      ]
+    },
+    {
+      "id": "ph-k07-a04b",
+      "fach": "Ph",
+      "thema": "Impuls und Impulserhaltung – Stöße (Impulserhaltungssatz, Gesamtimpuls, Impulsplan)",
+      "buch": "Physik – FOS Technik Bayern Jahrgangsstufe 11",
+      "seite": "111",
+      "aufgabe_nr": "7.5 Aufgabe 4 (b)",
+      "wortlaut": "4. Impulserhaltung beim Billard\nBeim Billardspiel stößt eine Kugel eine andere (die ruht) derart, dass sie sich unter einem Winkel von\n– 30°\n– 45° (Bild 3)\n– 60°\nzu ihrer ursprünglichen Richtung weiterbewegt.\n(a) Konstruieren Sie jeweils das Diagramm für die Impulsvektoren beider Kugeln, wenn deren Bewegungsrichtungen nach dem Stoß einen rechten Winkel einschließen.\n(b) Geben Sie an, um wie viel Prozent sich dabei jeweils der Geschwindigkeitsbetrag der stoßenden Kugel reduziert.",
+      "antwortoptionen": [
+        "30°: 13 %; 45°: 29 %; 60°: 50 %",
+        "30°: 87 %; 45°: 71 %; 60°: 50 %",
+        "30°: 50 %; 45°: 29 %; 60°: 13 %",
+        "30°: 33 %; 45°: 50 %; 60°: 67 %"
+      ],
+      "richtige_option": "30°: 13 %; 45°: 29 %; 60°: 50 %",
+      "loesung": "Δp₁/p₁ = (p₁ − p′₁)/p₁ = 1 − cos α; α = 30°: 13 %; α = 45°: 29 %; α = 60°: 50 %",
+      "loesung_quelle": "Physik – FOS Technik Bayern Jahrgangsstufe 11, Lösungsteil S. 158, „7 Lösungen zu Kapitel 7“, Aufgabe 4",
+      "termin_ids": [
+        "2026-11-19-ph-ka1"
+      ]
+    },
+    {
+      "id": "ph-k07-a05a",
+      "fach": "Ph",
+      "thema": "Impuls und Impulserhaltung – Stöße (Impulserhaltungssatz, Gesamtimpuls, Impulsplan)",
+      "buch": "Physik – FOS Technik Bayern Jahrgangsstufe 11",
+      "seite": "111",
+      "aufgabe_nr": "7.5 Aufgabe 5 (a)",
+      "wortlaut": "5. Stöße auf der Luftkissenfahrbahn\nAuf der Luftkissenfahrbahn werden verschiedene Stoßversuche durchgeführt. Die Fahrzeuge bewegen sich nach dem Stoß jeweils gemeinsam weiter. Die Gleiter wiegen 104 g bzw. 101 g. Berechnen Sie Geschwindigkeiten u⃗ (Betrag und Richtung) der beiden Gleiter nach dem Stoß für folgende Situationen:\n(a) Beide Gleiter fahren mit jeweils 1,5 m/s aufeinander zu.",
+      "antwortoptionen": [
+        "u = 1,5 m/s in Richtung von Gleiter 1",
+        "u = 0 m/s (beide Gleiter bleiben stehen)",
+        "u = 0,022 m/s in Richtung von Gleiter 2",
+        "u = 0,022 m/s in Richtung von Gleiter 1"
+      ],
+      "richtige_option": "u = 0,022 m/s in Richtung von Gleiter 1",
+      "loesung": "Für alle Stöße gilt: u = (m₁ · v₁ + m₂ · v₂)/(m₁ + m₂) = (104 · v₁ + 101 · v₂)/205; (a) u = 0,022 m/s in Richtung von Gleiter 1",
+      "loesung_quelle": "Physik – FOS Technik Bayern Jahrgangsstufe 11, Lösungsteil S. 158, „7 Lösungen zu Kapitel 7“, Aufgabe 5 (a)",
+      "termin_ids": [
+        "2026-11-19-ph-ka1"
+      ]
+    },
+    {
+      "id": "ph-k07-a05b",
+      "fach": "Ph",
+      "thema": "Impuls und Impulserhaltung – Stöße (Impulserhaltungssatz, Gesamtimpuls, Impulsplan)",
+      "buch": "Physik – FOS Technik Bayern Jahrgangsstufe 11",
+      "seite": "111",
+      "aufgabe_nr": "7.5 Aufgabe 5 (b)",
+      "wortlaut": "5. Stöße auf der Luftkissenfahrbahn\nAuf der Luftkissenfahrbahn werden verschiedene Stoßversuche durchgeführt. Die Fahrzeuge bewegen sich nach dem Stoß jeweils gemeinsam weiter. Die Gleiter wiegen 104 g bzw. 101 g. Berechnen Sie Geschwindigkeiten u⃗ (Betrag und Richtung) der beiden Gleiter nach dem Stoß für folgende Situationen:\n(b) Der erste Gleiter fährt mit 1,5 m/s auf den zweiten Gleiter (0,65 m/s) auf.",
+      "antwortoptionen": [
+        "u = 1,08 m/s weiter in dieselbe Richtung",
+        "u = 0,44 m/s weiter in dieselbe Richtung",
+        "u = 0,44 m/s entgegen der ursprünglichen Richtung",
+        "u = 2,15 m/s weiter in dieselbe Richtung"
+      ],
+      "richtige_option": "u = 1,08 m/s weiter in dieselbe Richtung",
+      "loesung": "Für alle Stöße gilt: u = (m₁ · v₁ + m₂ · v₂)/(m₁ + m₂) = (104 · v₁ + 101 · v₂)/205; (b) u = 1,08 m/s weiter in dieselbe Richtung",
+      "loesung_quelle": "Physik – FOS Technik Bayern Jahrgangsstufe 11, Lösungsteil S. 158, „7 Lösungen zu Kapitel 7“, Aufgabe 5 (b)",
+      "termin_ids": [
+        "2026-11-19-ph-ka1"
+      ]
+    },
+    {
+      "id": "ph-k07-a05c",
+      "fach": "Ph",
+      "thema": "Impuls und Impulserhaltung – Stöße (Impulserhaltungssatz, Gesamtimpuls, Impulsplan)",
+      "buch": "Physik – FOS Technik Bayern Jahrgangsstufe 11",
+      "seite": "111",
+      "aufgabe_nr": "7.5 Aufgabe 5 (c)",
+      "wortlaut": "5. Stöße auf der Luftkissenfahrbahn\nAuf der Luftkissenfahrbahn werden verschiedene Stoßversuche durchgeführt. Die Fahrzeuge bewegen sich nach dem Stoß jeweils gemeinsam weiter. Die Gleiter wiegen 104 g bzw. 101 g. Berechnen Sie Geschwindigkeiten u⃗ (Betrag und Richtung) der beiden Gleiter nach dem Stoß für folgende Situationen:\n(c) Die Gleiter fahren mit 1,5 m/s (Gleiter 1) bzw. 0,65 m/s (Gleiter 2) aufeinander zu.",
+      "antwortoptionen": [
+        "u = 0,44 m/s in Richtung von Gleiter 1",
+        "u = 0,44 m/s in Richtung von Gleiter 2",
+        "u = 1,08 m/s in Richtung von Gleiter 1",
+        "u = 0,85 m/s in Richtung von Gleiter 1"
+      ],
+      "richtige_option": "u = 0,44 m/s in Richtung von Gleiter 1",
+      "loesung": "Für alle Stöße gilt: u = (m₁ · v₁ + m₂ · v₂)/(m₁ + m₂) = (104 · v₁ + 101 · v₂)/205; (c) u = 0,44 m/s in Richtung von Gleiter 1",
+      "loesung_quelle": "Physik – FOS Technik Bayern Jahrgangsstufe 11, Lösungsteil S. 158, „7 Lösungen zu Kapitel 7“, Aufgabe 5 (c)",
+      "termin_ids": [
+        "2026-11-19-ph-ka1"
+      ]
+    },
+    {
+      "id": "ph-k07-a06",
+      "fach": "Ph",
+      "thema": "Impuls und Impulserhaltung – Stöße (Impulserhaltungssatz, Gesamtimpuls, Impulsplan)",
+      "buch": "Physik – FOS Technik Bayern Jahrgangsstufe 11",
+      "seite": "111",
+      "aufgabe_nr": "7.5 Aufgabe 6",
+      "wortlaut": "6. Kugeln stoßen\nEine 4 kg schwere Kugel der Masse stößt gerade und zentral auf eine 10 kg schwere ruhende Kugel, an der sie kleben bleibt. Beide Kugeln bewegen sich mit einer Geschwindigkeit von 6,0 m/s weiter.\nBerechnen Sie die Geschwindigkeit der stoßenden Kugel.",
+      "antwortoptionen": [
+        "v₁ = 8,4 m/s",
+        "v₁ = 15 m/s",
+        "v₁ = 21 m/s",
+        "v₁ = 2,4 m/s"
+      ],
+      "richtige_option": "v₁ = 21 m/s",
+      "loesung": "v₁ = (m₁ + m₂)/m₁ · u = 14/4,0 · 6,0 m/s = 21 m/s",
+      "loesung_quelle": "Physik – FOS Technik Bayern Jahrgangsstufe 11, Lösungsteil S. 158, „7 Lösungen zu Kapitel 7“, Aufgabe 6",
+      "termin_ids": [
+        "2026-11-19-ph-ka1"
+      ]
+    },
+    {
+      "id": "ph-k07-a07",
+      "fach": "Ph",
+      "thema": "Impuls und Impulserhaltung – Stöße (Impulserhaltungssatz, Gesamtimpuls, Impulsplan)",
+      "buch": "Physik – FOS Technik Bayern Jahrgangsstufe 11",
+      "seite": "111",
+      "aufgabe_nr": "7.5 Aufgabe 7",
+      "wortlaut": "7. Wiegen mit dem Impuls (Nach TIMSS/III-Germany, 1999)\nEin leerer Eisenbahnwaggon der Masse 10 t prallt mit einer Geschwindigkeit von 3 m/s auf einen identischen, stehenden Waggon, der mit Weizen befüllt ist. Während des Zusammenstoßes koppeln die beiden Wagen an und bewegen sich dann gemeinsam mit der Geschwindigkeit 0,6 m/s weiter. Berechnen Sie die Masse des Weizens.",
+      "antwortoptionen": [
+        "m_W = 50 t",
+        "m_W = 30 t",
+        "m_W = 40 t",
+        "m_W = 20 t"
+      ],
+      "richtige_option": "m_W = 30 t",
+      "loesung": "(2m + m_W) · u = m · v ⇒ m_W = m · (v/u − 2) = 10 t · (3/0,6 − 2) = 30 t",
+      "loesung_quelle": "Physik – FOS Technik Bayern Jahrgangsstufe 11, Lösungsteil S. 158, „7 Lösungen zu Kapitel 7“, Aufgabe 7",
+      "termin_ids": [
+        "2026-11-19-ph-ka1"
+      ]
+    },
+    {
+      "id": "ph-k07-a08",
+      "fach": "Ph",
+      "thema": "Impuls und Impulserhaltung – Stöße (Impulserhaltungssatz, Gesamtimpuls, Impulsplan)",
+      "buch": "Physik – FOS Technik Bayern Jahrgangsstufe 11",
+      "seite": "112",
+      "aufgabe_nr": "7.5 Aufgabe 8",
+      "wortlaut": "8. Ballwurf an eine bewegte Wand\nEin Tennisball wird senkrecht an die Rückwand eines LKW geworfen, der sich mit konstanter Geschwindigkeit bewegt. Der Ball ist dabei doppelt so schnell wie der LKW. Skizzieren Sie die qualitativen Impulsdiagramme für den Stoß, wenn sich der LKW\n(a) vom Werfer weg bewegt\n(b) auf den Werfer zu bewegt\nund geben Sie jeweils an, wie sich der Impulsbetrag des LKW verändert.",
+      "antwortoptionen": [
+        "(a) Impulsbetrag des LKW nimmt zu; (b) Impulsbetrag des LKW nimmt ab",
+        "(a) nimmt ab; (b) nimmt zu",
+        "(a) und (b): Impulsbetrag des LKW nimmt zu",
+        "(a) und (b): Impulsbetrag des LKW bleibt gleich"
+      ],
+      "richtige_option": "(a) Impulsbetrag des LKW nimmt zu; (b) Impulsbetrag des LKW nimmt ab",
+      "loesung": "(a) Der LKW bewegt sich vom Werfer weg. Der Impulsbetrag des LKW nimmt zu: p′₂ > p₂. (b) Der LKW bewegt sich auf den Werfer zu. Der Impulsbetrag des LKW nimmt ab: p′₂ < p₂.",
+      "loesung_quelle": "Physik – FOS Technik Bayern Jahrgangsstufe 11, Lösungsteil S. 158–159, „7 Lösungen zu Kapitel 7“, Aufgabe 8",
+      "termin_ids": [
+        "2026-11-19-ph-ka1"
+      ]
+    },
+    {
+      "id": "ph-k07-a09",
+      "fach": "Ph",
+      "thema": "Impuls und Impulserhaltung – Stöße (Impulserhaltungssatz, Gesamtimpuls, Impulsplan)",
+      "buch": "Physik – FOS Technik Bayern Jahrgangsstufe 11",
+      "seite": "112",
+      "aufgabe_nr": "7.5 Aufgabe 9",
+      "wortlaut": "9. Nicht-zentraler Stoß im Straßenverkehr\nZwei PKWs mit annähernd gleicher Masse fahren mit jeweils 50 Stundenkilometer von Westen bzw. Süden in eine rechtwinklige Straßenkreuzung ein, stoßen vollkommen unelastisch aufeinander und verkeilen sich.\n(a) Konstruieren Sie den Impulsvektor des PKW-Schrotts nach dem Stoß!\n(b) Wie verändert sich dieser, wenn ein PKW eine doppelt so große Masse besitzt wie der andere (z. B. SUV und Kleinwagen)?",
+      "antwortoptionen": [
+        "(a) 45°; (b) 45° (Richtung ändert sich nicht)",
+        "(a) 90°; (b) 63°",
+        "Stoßwinkel (a) 45°; (b) 63°",
+        "(a) 45°; (b) 27°"
+      ],
+      "richtige_option": "Stoßwinkel (a) 45°; (b) 63°",
+      "loesung": "(a) Stoßwinkel: 45° (b) Stoßwinkel: 63°",
+      "loesung_quelle": "Physik – FOS Technik Bayern Jahrgangsstufe 11, Lösungsteil S. 159, „7 Lösungen zu Kapitel 7“, Aufgabe 9",
+      "termin_ids": [
+        "2026-11-19-ph-ka1"
+      ]
+    },
+    {
+      "id": "ph-k09-a06a",
+      "fach": "Ph",
+      "thema": "Impulserhaltung bei Stößen mit schiefer Ebene und Reibung",
+      "buch": "Physik – FOS Technik Bayern Jahrgangsstufe 11",
+      "seite": "134",
+      "aufgabe_nr": "9.3 Aufgabe 6 (a)",
+      "wortlaut": "6. Güterwaggon\nEin Güterwaggon (25 t) rollt ein um 0,5 % geneigtes Gleis hinunter. Nach 50 m stößt er mit einem weiteren Güterwaggon (18 t) zusammen, so dass die Kupplung einrastet.\n(a) Mit welcher Geschwindigkeit stößt der erste Waggon an den zweiten?\n(Rollreibung von Stahl auf Stahl: μ = 0,003)",
+      "antwortoptionen": [
+        "v_End = 2,2 m/s",
+        "v_End = 1,4 m/s",
+        "v_End = 0,98 m/s",
+        "v_End = 1,96 m/s"
+      ],
+      "richtige_option": "v_End = 1,4 m/s",
+      "loesung": "F_H − F_R = m₁ · a (Newton II) mit F_H = F_G · sin(α) und F_R = μ · F_N, F_N = F_G · cos(α); a = g · (sin(α) − μ · cos(α)) ≈ 0,01962 m/s²; v_End = √(2 · a · x) = 1,4 m/s",
+      "loesung_quelle": "Physik – FOS Technik Bayern Jahrgangsstufe 11, Lösungsteil S. 164, „9 Lösungen zu Kapitel 9“, Aufgabe 6",
+      "termin_ids": [
+        "2026-11-19-ph-ka1"
+      ]
+    },
+    {
+      "id": "ph-k09-a06b",
+      "fach": "Ph",
+      "thema": "Impulserhaltung bei Stößen mit schiefer Ebene und Reibung",
+      "buch": "Physik – FOS Technik Bayern Jahrgangsstufe 11",
+      "seite": "134",
+      "aufgabe_nr": "9.3 Aufgabe 6 (b)",
+      "wortlaut": "6. Güterwaggon\nEin Güterwaggon (25 t) rollt ein um 0,5 % geneigtes Gleis hinunter. Nach 50 m stößt er mit einem weiteren Güterwaggon (18 t) zusammen, so dass die Kupplung einrastet.\n(a) Mit welcher Geschwindigkeit stößt der erste Waggon an den zweiten?\n(Rollreibung von Stahl auf Stahl: μ = 0,003)\n(b) Mit welcher Geschwindigkeit rollen beide weiter?",
+      "antwortoptionen": [
+        "u = 0,81 m/s",
+        "u = 0,59 m/s",
+        "u = 1,4 m/s",
+        "u = 0,70 m/s"
+      ],
+      "richtige_option": "u = 0,81 m/s",
+      "loesung": "unelastischer Stoß: u = (25 · 1,4 m/s + 0)/43 = 0,81 m/s",
+      "loesung_quelle": "Physik – FOS Technik Bayern Jahrgangsstufe 11, Lösungsteil S. 164, „9 Lösungen zu Kapitel 9“, Aufgabe 6",
+      "termin_ids": [
+        "2026-11-19-ph-ka1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1194 @@
+{
+  "schema_version": 1,
+  "schuljahr": "2026/27",
+  "klasse": "12BT",
+  "schule": "FOS/BOS Memmingen",
+  "schule_quelle": "Physik-Arbeitsblatt „fos|bos Memmingen“ (laut Nachhilfelehrer)",
+  "aktualisiert": "2026-10-31",
+  "zeitzone": "Europe/Berlin",
+  "typ_enum": [
+    "schulaufgabe",
+    "kurzarbeit",
+    "stegreifaufgabe",
+    "referat",
+    "pruefung",
+    "abitur",
+    "ferien",
+    "feiertag",
+    "veranstaltung",
+    "sonstiges"
+  ],
+  "status_enum": [
+    "fest",
+    "termin_offen"
+  ],
+  "erinnerungen": {
+    "schulaufgabe": [
+      7,
+      1
+    ],
+    "kurzarbeit": [
+      7,
+      1
+    ]
+  },
+  "erinnerungen_regel": "Erinnerungen nur für Termine mit status 'fest'; status 'termin_offen' (datum null) löst keine Erinnerung aus und erscheint nicht mit Datum",
+  "stundenraster": {
+    "0": {
+      "von": "07:00",
+      "bis": "07:45"
+    },
+    "1": {
+      "von": "08:00",
+      "bis": "08:45"
+    },
+    "2": {
+      "von": "08:45",
+      "bis": "09:30"
+    },
+    "3": {
+      "von": "09:40",
+      "bis": "10:25"
+    },
+    "4": {
+      "von": "10:25",
+      "bis": "11:10"
+    },
+    "5": {
+      "von": "11:30",
+      "bis": "12:15"
+    },
+    "6": {
+      "von": "12:15",
+      "bis": "13:00"
+    },
+    "7": {
+      "von": "13:00",
+      "bis": "13:45"
+    },
+    "8": {
+      "von": "13:45",
+      "bis": "14:30"
+    },
+    "9": {
+      "von": "14:30",
+      "bis": "15:15"
+    },
+    "10": {
+      "von": "15:15",
+      "bis": "16:00"
+    }
+  },
+  "faecher": [
+    {
+      "kuerzel": "F",
+      "name": "Französisch",
+      "name_status": "belegt",
+      "lehrer": [
+        "BeK"
+      ],
+      "beleg": "Bestätigung Silas 31.10.2026; F-Schulaufgabe 21.12. 08:00–09:30 = Mo Std 1–2 BeK F (KW 52 markiert); Ordner Französisch"
+    },
+    {
+      "kuerzel": "Ph",
+      "name": "Physik",
+      "name_status": "belegt",
+      "lehrer": [
+        "RoJ"
+      ],
+      "beleg": "Bestätigung Silas 31.10.2026; Ph-KA 19.11. 11:30–13:00 = Do Std 5–6 RoJ Ph (KW 47 markiert)"
+    },
+    {
+      "kuerzel": "M",
+      "name": "Mathematik",
+      "name_status": "belegt",
+      "lehrer": [
+        "Kl"
+      ],
+      "beleg": "Bestätigung Silas 31.10.2026; Kürzel M im Plan; Fach Mathematik in Drive; kein Termin-Abgleich"
+    },
+    {
+      "kuerzel": "GPuG",
+      "name": "Geschichte, Politik und Gesellschaft",
+      "name_status": "belegt",
+      "lehrer": [
+        "Ra"
+      ],
+      "beleg": "Bestätigung Silas 31.10.2026; Lehrplan gpug12.pdf: 'Berufsoberschule: Geschichte/Politik und Gesellschaft 12'; Plan: Ra GPuG"
+    },
+    {
+      "kuerzel": "K",
+      "name": "Katholische Religionslehre",
+      "name_status": "belegt",
+      "lehrer": [
+        "ScD"
+      ],
+      "beleg": "Bestätigung Silas 31.10.2026; Kath.-Religion-KA 30.11. 12:15–13:00 = Mo Std 6 ScD K (KW 49 markiert); Doc 'Hefteinträge - Religionslehre'"
+    },
+    {
+      "kuerzel": "D",
+      "name": "Deutsch",
+      "name_status": "belegt",
+      "lehrer": [
+        "Ka"
+      ],
+      "beleg": "Bestätigung Silas 31.10.2026; Plan: Ka D; Deutsch-Termine (30.10., 05.02.) passen aber NICHT auf Ka-D-Stunden; App-Liste nennt Fach 'Deutsch' mit Kürzel D"
+    },
+    {
+      "kuerzel": "C",
+      "name": "Chemie",
+      "name_status": "belegt",
+      "lehrer": [
+        "ReB"
+      ],
+      "beleg": "Bestätigung Silas 31.10.2026; Chemie-KA 20.01.2027 08:45–09:30 = Mi Std 2 ReB C (zeitliche Übereinstimmung)"
+    },
+    {
+      "kuerzel": "E",
+      "name": "Englisch",
+      "name_status": "belegt",
+      "lehrer": [
+        "Te"
+      ],
+      "beleg": "Bestätigung Silas 31.10.2026; Englisch-SA 26.11. 09:40–11:10 = Do Std 3–4 Te E (KW 48 markiert)"
+    },
+    {
+      "kuerzel": "Te",
+      "name": "Technologie",
+      "name_status": "belegt",
+      "lehrer": [
+        "Spa"
+      ],
+      "beleg": "Bestätigung Silas 31.10.2026; Plan: Spa Te; vermutlich Technologie (Drive-Ordner Technologie, technologie12.pdf), aber nicht belegt"
+    },
+    {
+      "kuerzel": "M+T",
+      "name": "Mathematik Additum Technik",
+      "name_status": "belegt",
+      "lehrer": [
+        "SDa"
+      ],
+      "beleg": "Bestätigung Silas 31.10.2026; App: 'Mathematik Additum Technik' mit Kürzel 'M+T?'; Termine fallen auf SDa-M+T-Stunden (Fr Std 4)"
+    }
+  ],
+  "termine": [
+    {
+      "id": "2026-10-21-c-ka1",
+      "typ": "kurzarbeit",
+      "titel": "1. Kurzarbeit Chemie",
+      "fach": "C",
+      "datum_von": "2026-10-21",
+      "datum_bis": "2026-10-21",
+      "uhrzeit": null,
+      "raum": null,
+      "themen": [],
+      "quelle": "Sprachnotizen_2026-10-25 (Transkript), Aufnahmen 21.10.2026 (morgens und nachmittags)",
+      "notizen": "vergangen; Uhrzeit nicht angegeben",
+      "offene_fragen": [
+        "Aufnahme 19.10. nennt außerdem eine Physik-KA 'am 21.' – widerspricht App (1. KA PH am 19.11.), daher nicht übernommen"
+      ],
+      "status": "fest"
+    },
+    {
+      "id": "2026-10-26-f-ka",
+      "typ": "kurzarbeit",
+      "titel": "Französisch-Kurzarbeit",
+      "fach": "F",
+      "datum_von": "2026-10-26",
+      "datum_bis": "2026-10-26",
+      "uhrzeit": null,
+      "raum": null,
+      "themen": [],
+      "quelle": "alte Terminkarte (privater Zeitplan), nicht in App-Liste",
+      "notizen": "vergangen",
+      "offene_fragen": [],
+      "status": "fest"
+    },
+    {
+      "id": "2026-10-30-d-kommentar",
+      "typ": "schulaufgabe",
+      "titel": "Deutsch-Kommentar",
+      "fach": "D",
+      "datum_von": "2026-10-30",
+      "datum_bis": "2026-10-30",
+      "uhrzeit": "10:25-13:00",
+      "raum": null,
+      "themen": [
+        "Kommentar: Protestaktionen Jugendlicher, bes. Klimaschutz",
+        "Struktur Behauptung–Begründung–Beispiel"
+      ],
+      "quelle": "alte Terminkarte (privater Zeitplan), nicht in App-Liste",
+      "notizen": "vergangen",
+      "offene_fragen": [
+        "Typ (Schulaufgabe?) nicht durch App bestätigt"
+      ],
+      "status": "fest"
+    },
+    {
+      "id": "ferien-herbst-2026",
+      "typ": "ferien",
+      "titel": "Herbstferien",
+      "fach": null,
+      "datum_von": "2026-11-02",
+      "datum_bis": "2026-11-08",
+      "uhrzeit": null,
+      "raum": null,
+      "themen": [],
+      "quelle": "Vorgabe Silas/Sekretär; Stundenplan KW45 ('HF 02.11. bis 08.11.')",
+      "notizen": null,
+      "offene_fragen": [],
+      "status": "fest"
+    },
+    {
+      "id": "2026-11-09-ph-hausaufgabe",
+      "typ": "sonstiges",
+      "titel": "Physik-Hausaufgabe fällig (Selbstlernkurs Bayern Cloud Schule)",
+      "fach": "Ph",
+      "datum_von": "2026-11-09",
+      "datum_bis": "2026-11-09",
+      "uhrzeit": null,
+      "raum": null,
+      "themen": [],
+      "quelle": "alte Terminkarte (privater Zeitplan)",
+      "notizen": "kein Leistungsnachweis",
+      "offene_fragen": [],
+      "status": "fest"
+    },
+    {
+      "id": "2026-11-13-mt-ka1",
+      "typ": "kurzarbeit",
+      "titel": "1. KA Mathematik",
+      "fach": "M+T",
+      "datum_von": "2026-11-13",
+      "datum_bis": "2026-11-13",
+      "uhrzeit": "10:25-11:10",
+      "raum": "130 (Klasse OG)",
+      "themen": [],
+      "quelle": "Schul-App Leistungsnachweise (Screenshot Silas, 31.10.2026)",
+      "notizen": "App: 10:25-11:10 (alte Karte hatte 10:25-12:10, verworfen)",
+      "offene_fragen": [],
+      "status": "fest"
+    },
+    {
+      "id": "feiertag-buss-und-bettag-2026",
+      "typ": "feiertag",
+      "titel": "Buß- und Bettag (unterrichtsfrei)",
+      "fach": null,
+      "datum_von": "2026-11-18",
+      "datum_bis": "2026-11-18",
+      "uhrzeit": null,
+      "raum": null,
+      "themen": [],
+      "quelle": "Vorgabe Silas/Sekretär; Stundenplan KW47 ('Ferien BB')",
+      "notizen": null,
+      "offene_fragen": [],
+      "status": "fest"
+    },
+    {
+      "id": "2026-11-19-ph-ka1",
+      "typ": "kurzarbeit",
+      "titel": "1. KA PH",
+      "fach": "Ph",
+      "datum_von": "2026-11-19",
+      "datum_bis": "2026-11-19",
+      "uhrzeit": "11:30-13:00",
+      "raum": "125 (Physik)",
+      "themen": [
+        "gültige Ziffern und Messwerte auswerten",
+        "gleichförmige und gleichmäßig beschleunigte Bewegung",
+        "freier Fall",
+        "waagerechter, senkrechter und schiefer Wurf",
+        "Kräfte zerlegen und addieren",
+        "schiefe Ebene",
+        "Reibung",
+        "drei Newtonsche Gesetze",
+        "Impuls (Definition, Kraftstoß, Impulserhaltung, Stöße)",
+        "Atwood"
+      ],
+      "quelle": "Schul-App Leistungsnachweise (Screenshot Silas, 31.10.2026)",
+      "notizen": "Stoffliste aus alter Terminkarte, von Silas bestätigt",
+      "offene_fragen": [
+        "D Std 5 entfällt laut Sprachnotiz 29.10. (roter Balken in der App, andere Stunde zur selben Zeit) – passt zur Ph-KA; bitte in App gegenprüfen"
+      ],
+      "status": "fest"
+    },
+    {
+      "id": "2026-11-26-e-sa1",
+      "typ": "schulaufgabe",
+      "titel": "ESA1 - ESA1",
+      "fach": "E",
+      "datum_von": "2026-11-26",
+      "datum_bis": "2026-11-26",
+      "uhrzeit": "09:40-11:10",
+      "raum": "130 (Klasse OG)",
+      "themen": [],
+      "quelle": "Schul-App Leistungsnachweise (Screenshot Silas, 31.10.2026)",
+      "notizen": null,
+      "offene_fragen": [],
+      "status": "fest"
+    },
+    {
+      "id": "2026-11-30-k-ka1",
+      "typ": "kurzarbeit",
+      "titel": "KA1-K",
+      "fach": "K",
+      "datum_von": "2026-11-30",
+      "datum_bis": "2026-11-30",
+      "uhrzeit": "12:15-13:00",
+      "raum": "111 (Klasse OG)",
+      "themen": [],
+      "quelle": "Schul-App Leistungsnachweise (Screenshot Silas, 31.10.2026)",
+      "notizen": null,
+      "offene_fragen": [],
+      "status": "fest"
+    },
+    {
+      "id": "2026-12-21-f-sa1",
+      "typ": "schulaufgabe",
+      "titel": "SA 1",
+      "fach": "F",
+      "datum_von": "2026-12-21",
+      "datum_bis": "2026-12-21",
+      "uhrzeit": "08:00-09:30",
+      "raum": "111 (Klasse OG)",
+      "themen": [],
+      "quelle": "Schul-App Leistungsnachweise (Screenshot Silas, 31.10.2026)",
+      "notizen": null,
+      "offene_fragen": [],
+      "status": "fest"
+    },
+    {
+      "id": "ferien-weihnachten-2026",
+      "typ": "ferien",
+      "titel": "Weihnachtsferien",
+      "fach": null,
+      "datum_von": "2026-12-24",
+      "datum_bis": "2027-01-10",
+      "uhrzeit": null,
+      "raum": null,
+      "themen": [],
+      "quelle": "Vorgabe Silas/Sekretär; Stundenplan KW52 ('WF 24.12. bis 10.01.')",
+      "notizen": null,
+      "offene_fragen": [],
+      "status": "fest"
+    },
+    {
+      "id": "2027-01-14-ph-sa1",
+      "typ": "schulaufgabe",
+      "titel": "1. SA PH",
+      "fach": "Ph",
+      "datum_von": "2027-01-14",
+      "datum_bis": "2027-01-14",
+      "uhrzeit": "11:30-13:00",
+      "raum": "125 (Physik)",
+      "themen": [],
+      "quelle": "Schul-App Leistungsnachweise (Screenshot Silas, 31.10.2026)",
+      "notizen": null,
+      "offene_fragen": [
+        "Std 5 ist regulär D (Ka) – fällt Deutsch aus?"
+      ],
+      "status": "fest"
+    },
+    {
+      "id": "2027-01-20-c-ka2",
+      "typ": "kurzarbeit",
+      "titel": "KA2-C",
+      "fach": "C",
+      "datum_von": "2027-01-20",
+      "datum_bis": "2027-01-20",
+      "uhrzeit": "08:45-09:30",
+      "raum": "123 (Physik/Chemie)",
+      "themen": [],
+      "quelle": "Schul-App Leistungsnachweise (Screenshot Silas, 31.10.2026)",
+      "notizen": null,
+      "offene_fragen": [],
+      "status": "fest"
+    },
+    {
+      "id": "2027-02-05-d-sa1",
+      "typ": "schulaufgabe",
+      "titel": "SA1-D",
+      "fach": "D",
+      "datum_von": "2027-02-05",
+      "datum_bis": "2027-02-05",
+      "uhrzeit": "07:00-07:45",
+      "raum": "130 (Klasse OG)",
+      "themen": [],
+      "quelle": "Schul-App Leistungsnachweise (Screenshot Silas, 31.10.2026)",
+      "notizen": null,
+      "offene_fragen": [
+        "Fr 07:00-07:45 (Std 0), freitags regulär kein Deutsch – Uhrzeit richtig?"
+      ],
+      "status": "fest"
+    },
+    {
+      "id": "2027-02-15-f-ka2",
+      "typ": "schulaufgabe",
+      "titel": "KA 2",
+      "fach": "F",
+      "datum_von": "2027-02-15",
+      "datum_bis": "2027-02-15",
+      "uhrzeit": "08:00-09:30",
+      "raum": "034 (Klasse EG)",
+      "themen": [],
+      "quelle": "Schul-App Leistungsnachweise (Screenshot Silas, 31.10.2026)",
+      "notizen": "Titel 'KA 2', Typ laut App Schulaufgabe – so übernommen",
+      "offene_fragen": [
+        "Schulaufgabe oder Kurzarbeit?",
+        "Raum 034 (Klasse EG) statt üblich 111 – richtig?"
+      ],
+      "status": "fest"
+    },
+    {
+      "id": "2027-02-19-ph-ka2",
+      "typ": "kurzarbeit",
+      "titel": "2. KA PH",
+      "fach": "Ph",
+      "datum_von": "2027-02-19",
+      "datum_bis": "2027-02-19",
+      "uhrzeit": "11:30-12:15",
+      "raum": "125 (Physik)",
+      "themen": [],
+      "quelle": "Schul-App Leistungsnachweise (Screenshot Silas, 31.10.2026)",
+      "notizen": null,
+      "offene_fragen": [],
+      "status": "fest"
+    },
+    {
+      "id": "2027-02-25-e-sa2",
+      "typ": "schulaufgabe",
+      "titel": "ESA2 - ESA2",
+      "fach": "E",
+      "datum_von": "2027-02-25",
+      "datum_bis": "2027-02-25",
+      "uhrzeit": "09:40-11:10",
+      "raum": "130 (Klasse OG)",
+      "themen": [],
+      "quelle": "Schul-App Leistungsnachweise (Screenshot Silas, 31.10.2026)",
+      "notizen": null,
+      "offene_fragen": [],
+      "status": "fest"
+    },
+    {
+      "id": "2027-02-26-mt-ka2",
+      "typ": "kurzarbeit",
+      "titel": "2. Kurzarbeit M-Add",
+      "fach": "M+T",
+      "datum_von": "2027-02-26",
+      "datum_bis": "2027-02-26",
+      "uhrzeit": "10:25-11:10",
+      "raum": "130 (Klasse OG)",
+      "themen": [],
+      "quelle": "Schul-App Leistungsnachweise (Screenshot Silas, 31.10.2026)",
+      "notizen": null,
+      "offene_fragen": [],
+      "status": "fest"
+    },
+    {
+      "id": "2027-03-01-k-ka2",
+      "typ": "kurzarbeit",
+      "titel": "KA2-K",
+      "fach": "K",
+      "datum_von": "2027-03-01",
+      "datum_bis": "2027-03-01",
+      "uhrzeit": "12:15-13:00",
+      "raum": "111 (Klasse OG)",
+      "themen": [],
+      "quelle": "Schul-App Leistungsnachweise (Screenshot Silas, 31.10.2026)",
+      "notizen": null,
+      "offene_fragen": [],
+      "status": "fest"
+    },
+    {
+      "id": "2027-03-17-ph-sa2",
+      "typ": "schulaufgabe",
+      "titel": "2. SA PH",
+      "fach": "Ph",
+      "datum_von": "2027-03-17",
+      "datum_bis": "2027-03-17",
+      "uhrzeit": "09:40-10:25",
+      "raum": "125 (Physik)",
+      "themen": [],
+      "quelle": "Schul-App Leistungsnachweise (Screenshot Silas, 31.10.2026)",
+      "notizen": null,
+      "offene_fragen": [],
+      "status": "fest"
+    },
+    {
+      "id": "2027-04-12-f-sa2",
+      "typ": "schulaufgabe",
+      "titel": "SA 2",
+      "fach": "F",
+      "datum_von": "2027-04-12",
+      "datum_bis": "2027-04-12",
+      "uhrzeit": "08:00-09:30",
+      "raum": "111 (Klasse OG)",
+      "themen": [],
+      "quelle": "Schul-App Leistungsnachweise (Screenshot Silas, 31.10.2026)",
+      "notizen": null,
+      "offene_fragen": [],
+      "status": "fest"
+    },
+    {
+      "id": "2027-04-12-fachabi-e-muendlich",
+      "typ": "abitur",
+      "titel": "Fachabitur: mündliche Gruppenprüfung Englisch (Zeitraum)",
+      "fach": "E",
+      "datum_von": "2027-04-12",
+      "datum_bis": "2027-04-30",
+      "uhrzeit": null,
+      "raum": null,
+      "themen": [],
+      "quelle": "KM-Bekanntmachung vom 23.07.2025 (BayMBl. 2025 Nr. 320), https://www.verkuendung-bayern.de/baymbl/2025-320/ ; https://www.km.bayern.de/download/4-25-10/baymbl-2025-320_FHR-2027.pdf",
+      "notizen": "genauer Tag legt die Schule fest",
+      "offene_fragen": [
+        "Konkreter Termin an der Schule noch nicht bekannt"
+      ],
+      "status": "fest"
+    },
+    {
+      "id": "2027-05-12-fachabi-d",
+      "typ": "abitur",
+      "titel": "Fachabitur schriftlich: Deutsch",
+      "fach": "D",
+      "datum_von": "2027-05-12",
+      "datum_bis": "2027-05-12",
+      "uhrzeit": null,
+      "raum": null,
+      "themen": [],
+      "quelle": "KM-Bekanntmachung vom 23.07.2025 (BayMBl. 2025 Nr. 320), https://www.verkuendung-bayern.de/baymbl/2025-320/ ; https://www.km.bayern.de/download/4-25-10/baymbl-2025-320_FHR-2027.pdf",
+      "notizen": "Uhrzeit nicht in der Bekanntmachung",
+      "offene_fragen": [],
+      "status": "fest"
+    },
+    {
+      "id": "2027-05-14-fachabi-profilfach",
+      "typ": "abitur",
+      "titel": "Fachabitur schriftlich: Profilfach (Technik: Physik)",
+      "fach": "Ph",
+      "datum_von": "2027-05-14",
+      "datum_bis": "2027-05-14",
+      "uhrzeit": null,
+      "raum": null,
+      "themen": [],
+      "quelle": "KM-Bekanntmachung vom 23.07.2025 (BayMBl. 2025 Nr. 320), https://www.verkuendung-bayern.de/baymbl/2025-320/ ; https://www.km.bayern.de/download/4-25-10/baymbl-2025-320_FHR-2027.pdf",
+      "notizen": "Bekanntmachung: Physik am 14.05.2027; Uhrzeit nicht angegeben",
+      "offene_fragen": [
+        "Profilfach der Ausbildungsrichtung Technik = Physik – bitte bestätigen"
+      ],
+      "status": "fest"
+    },
+    {
+      "id": "2027-06-01-fachabi-e",
+      "typ": "abitur",
+      "titel": "Fachabitur schriftlich: Englisch",
+      "fach": "E",
+      "datum_von": "2027-06-01",
+      "datum_bis": "2027-06-01",
+      "uhrzeit": null,
+      "raum": null,
+      "themen": [],
+      "quelle": "KM-Bekanntmachung vom 23.07.2025 (BayMBl. 2025 Nr. 320), https://www.verkuendung-bayern.de/baymbl/2025-320/ ; https://www.km.bayern.de/download/4-25-10/baymbl-2025-320_FHR-2027.pdf",
+      "notizen": "Uhrzeit nicht in der Bekanntmachung",
+      "offene_fragen": [],
+      "status": "fest"
+    },
+    {
+      "id": "2027-06-03-fachabi-m",
+      "typ": "abitur",
+      "titel": "Fachabitur schriftlich: Mathematik",
+      "fach": "M",
+      "datum_von": "2027-06-03",
+      "datum_bis": "2027-06-03",
+      "uhrzeit": null,
+      "raum": null,
+      "themen": [],
+      "quelle": "KM-Bekanntmachung vom 23.07.2025 (BayMBl. 2025 Nr. 320), https://www.verkuendung-bayern.de/baymbl/2025-320/ ; https://www.km.bayern.de/download/4-25-10/baymbl-2025-320_FHR-2027.pdf",
+      "notizen": "Uhrzeit nicht in der Bekanntmachung",
+      "offene_fragen": [],
+      "status": "fest"
+    },
+    {
+      "id": "2027-07-09-fachabi-zeugnis",
+      "typ": "abitur",
+      "titel": "Zeugnisdatum Fachhochschulreife",
+      "fach": null,
+      "datum_von": "2027-07-09",
+      "datum_bis": "2027-07-09",
+      "uhrzeit": null,
+      "raum": null,
+      "themen": [],
+      "quelle": "KM-Bekanntmachung vom 23.07.2025 (BayMBl. 2025 Nr. 320), https://www.verkuendung-bayern.de/baymbl/2025-320/ ; https://www.km.bayern.de/download/4-25-10/baymbl-2025-320_FHR-2027.pdf",
+      "notizen": null,
+      "offene_fragen": [],
+      "status": "fest"
+    },
+    {
+      "id": "offen-m-sa",
+      "typ": "schulaufgabe",
+      "titel": "Schulaufgabe Mathematik (Termin offen)",
+      "fach": "M",
+      "datum_von": null,
+      "datum_bis": null,
+      "uhrzeit": null,
+      "raum": null,
+      "themen": [],
+      "quelle": "Silas 31.10.2026: Termin angekündigt, Datum noch unbekannt",
+      "notizen": null,
+      "offene_fragen": [
+        "Datum/Uhrzeit/Raum"
+      ],
+      "status": "termin_offen"
+    },
+    {
+      "id": "offen-te-ln",
+      "typ": "schulaufgabe",
+      "titel": "Schulaufgabe oder Kurzarbeit Technologie (Termin offen)",
+      "fach": "Te",
+      "datum_von": null,
+      "datum_bis": null,
+      "uhrzeit": null,
+      "raum": null,
+      "themen": [],
+      "quelle": "Silas 31.10.2026: Termin angekündigt, Datum noch unbekannt",
+      "notizen": null,
+      "offene_fragen": [
+        "Datum/Uhrzeit/Raum",
+        "Schulaufgabe oder Kurzarbeit?"
+      ],
+      "status": "termin_offen"
+    },
+    {
+      "id": "offen-gpug-ln",
+      "typ": "schulaufgabe",
+      "titel": "Schulaufgabe oder Kurzarbeit GPuG (Termin offen)",
+      "fach": "GPuG",
+      "datum_von": null,
+      "datum_bis": null,
+      "uhrzeit": null,
+      "raum": null,
+      "themen": [],
+      "quelle": "Silas 31.10.2026: Termin angekündigt, Datum noch unbekannt",
+      "notizen": null,
+      "offene_fragen": [
+        "Datum/Uhrzeit/Raum",
+        "Schulaufgabe oder Kurzarbeit?"
+      ],
+      "status": "termin_offen"
+    }
+  ],
+  "stundenplan": [
+    {
+      "wochentag": "Mo",
+      "stunde": 1,
+      "uhrzeit_von": "08:00",
+      "uhrzeit_bis": "08:45",
+      "fach": "F",
+      "lehrer": "BeK",
+      "raum": "111",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": "gemeinsam mit 12BW ('12BW 12…' abgeschnitten)"
+    },
+    {
+      "wochentag": "Mo",
+      "stunde": 2,
+      "uhrzeit_von": "08:45",
+      "uhrzeit_bis": "09:30",
+      "fach": "F",
+      "lehrer": "BeK",
+      "raum": "111",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": "gemeinsam mit 12BW ('12BW 12…' abgeschnitten)"
+    },
+    {
+      "wochentag": "Mo",
+      "stunde": 3,
+      "uhrzeit_von": "09:40",
+      "uhrzeit_bis": "10:25",
+      "fach": "Ph",
+      "lehrer": "RoJ",
+      "raum": "125",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": null
+    },
+    {
+      "wochentag": "Mo",
+      "stunde": 4,
+      "uhrzeit_von": "10:25",
+      "uhrzeit_bis": "11:10",
+      "fach": "M",
+      "lehrer": "Kl",
+      "raum": "130",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": null
+    },
+    {
+      "wochentag": "Mo",
+      "stunde": 5,
+      "uhrzeit_von": "11:30",
+      "uhrzeit_bis": "12:15",
+      "fach": "GPuG",
+      "lehrer": "Ra",
+      "raum": "130",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": null
+    },
+    {
+      "wochentag": "Mo",
+      "stunde": 6,
+      "uhrzeit_von": "12:15",
+      "uhrzeit_bis": "13:00",
+      "fach": "K",
+      "lehrer": "ScD",
+      "raum": "111",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": null
+    },
+    {
+      "wochentag": "Mo",
+      "stunde": 8,
+      "uhrzeit_von": "13:45",
+      "uhrzeit_bis": "14:30",
+      "fach": "D",
+      "lehrer": "Ka",
+      "raum": "130",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": null
+    },
+    {
+      "wochentag": "Mo",
+      "stunde": 9,
+      "uhrzeit_von": "14:30",
+      "uhrzeit_bis": "15:15",
+      "fach": "D",
+      "lehrer": "Ka",
+      "raum": "130",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": null
+    },
+    {
+      "wochentag": "Mo",
+      "stunde": 10,
+      "uhrzeit_von": "15:15",
+      "uhrzeit_bis": "16:00",
+      "fach": "C",
+      "lehrer": "ReB",
+      "raum": "123",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": null
+    },
+    {
+      "wochentag": "Di",
+      "stunde": 1,
+      "uhrzeit_von": "08:00",
+      "uhrzeit_bis": "08:45",
+      "fach": "M+T",
+      "lehrer": "SDa",
+      "raum": "130",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": null
+    },
+    {
+      "wochentag": "Di",
+      "stunde": 2,
+      "uhrzeit_von": "08:45",
+      "uhrzeit_bis": "09:30",
+      "fach": "GPuG",
+      "lehrer": "Ra",
+      "raum": "130",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": null
+    },
+    {
+      "wochentag": "Di",
+      "stunde": 3,
+      "uhrzeit_von": "09:40",
+      "uhrzeit_bis": "10:25",
+      "fach": "Te",
+      "lehrer": "Spa",
+      "raum": "130",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": null
+    },
+    {
+      "wochentag": "Di",
+      "stunde": 4,
+      "uhrzeit_von": "10:25",
+      "uhrzeit_bis": "11:10",
+      "fach": "Te",
+      "lehrer": "Spa",
+      "raum": "130",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": null
+    },
+    {
+      "wochentag": "Di",
+      "stunde": 5,
+      "uhrzeit_von": "11:30",
+      "uhrzeit_bis": "12:15",
+      "fach": "M",
+      "lehrer": "Kl",
+      "raum": "130",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": null
+    },
+    {
+      "wochentag": "Di",
+      "stunde": 6,
+      "uhrzeit_von": "12:15",
+      "uhrzeit_bis": "13:00",
+      "fach": "M",
+      "lehrer": "Kl",
+      "raum": "130",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": null
+    },
+    {
+      "wochentag": "Di",
+      "stunde": 8,
+      "uhrzeit_von": "13:45",
+      "uhrzeit_bis": "14:30",
+      "fach": "E",
+      "lehrer": "Te",
+      "raum": "130",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": null
+    },
+    {
+      "wochentag": "Di",
+      "stunde": 9,
+      "uhrzeit_von": "14:30",
+      "uhrzeit_bis": "15:15",
+      "fach": "E",
+      "lehrer": "Te",
+      "raum": "130",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": null
+    },
+    {
+      "wochentag": "Mi",
+      "stunde": 1,
+      "uhrzeit_von": "08:00",
+      "uhrzeit_bis": "08:45",
+      "fach": "D",
+      "lehrer": "Ka",
+      "raum": "130",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": null
+    },
+    {
+      "wochentag": "Mi",
+      "stunde": 2,
+      "uhrzeit_von": "08:45",
+      "uhrzeit_bis": "09:30",
+      "fach": "C",
+      "lehrer": "ReB",
+      "raum": "123",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": null
+    },
+    {
+      "wochentag": "Mi",
+      "stunde": 3,
+      "uhrzeit_von": "09:40",
+      "uhrzeit_bis": "10:25",
+      "fach": "Ph",
+      "lehrer": "RoJ",
+      "raum": "125",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": null
+    },
+    {
+      "wochentag": "Mi",
+      "stunde": 4,
+      "uhrzeit_von": "10:25",
+      "uhrzeit_bis": "11:10",
+      "fach": "Ph",
+      "lehrer": "RoJ",
+      "raum": "125",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": null
+    },
+    {
+      "wochentag": "Mi",
+      "stunde": 5,
+      "uhrzeit_von": "11:30",
+      "uhrzeit_bis": "12:15",
+      "fach": "D",
+      "lehrer": "Ka",
+      "raum": "130",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": null
+    },
+    {
+      "wochentag": "Mi",
+      "stunde": 6,
+      "uhrzeit_von": "12:15",
+      "uhrzeit_bis": "13:00",
+      "fach": "Te",
+      "lehrer": "Spa",
+      "raum": "130",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": null
+    },
+    {
+      "wochentag": "Mi",
+      "stunde": 8,
+      "uhrzeit_von": "13:45",
+      "uhrzeit_bis": "14:30",
+      "fach": "M",
+      "lehrer": "Kl",
+      "raum": "130",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": null
+    },
+    {
+      "wochentag": "Mi",
+      "stunde": 9,
+      "uhrzeit_von": "14:30",
+      "uhrzeit_bis": "15:15",
+      "fach": "M",
+      "lehrer": "Kl",
+      "raum": "130",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": null
+    },
+    {
+      "wochentag": "Do",
+      "stunde": 3,
+      "uhrzeit_von": "09:40",
+      "uhrzeit_bis": "10:25",
+      "fach": "E",
+      "lehrer": "Te",
+      "raum": "130",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": "Do Std 0–2 frei"
+    },
+    {
+      "wochentag": "Do",
+      "stunde": 4,
+      "uhrzeit_von": "10:25",
+      "uhrzeit_bis": "11:10",
+      "fach": "E",
+      "lehrer": "Te",
+      "raum": "130",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": "Do Std 0–2 frei"
+    },
+    {
+      "wochentag": "Do",
+      "stunde": 5,
+      "uhrzeit_von": "11:30",
+      "uhrzeit_bis": "12:15",
+      "fach": "D",
+      "lehrer": "Ka",
+      "raum": "130",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": null
+    },
+    {
+      "wochentag": "Do",
+      "stunde": 6,
+      "uhrzeit_von": "12:15",
+      "uhrzeit_bis": "13:00",
+      "fach": "Ph",
+      "lehrer": "RoJ",
+      "raum": "125",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": null
+    },
+    {
+      "wochentag": "Do",
+      "stunde": 8,
+      "uhrzeit_von": "13:45",
+      "uhrzeit_bis": "14:30",
+      "fach": "F",
+      "lehrer": "BeK",
+      "raum": "111",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": "gemeinsam mit 12BW"
+    },
+    {
+      "wochentag": "Do",
+      "stunde": 9,
+      "uhrzeit_von": "14:30",
+      "uhrzeit_bis": "15:15",
+      "fach": "F",
+      "lehrer": "BeK",
+      "raum": "111",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": "gemeinsam mit 12BW"
+    },
+    {
+      "wochentag": "Fr",
+      "stunde": 1,
+      "uhrzeit_von": "08:00",
+      "uhrzeit_bis": "08:45",
+      "fach": "GPuG",
+      "lehrer": "Ra",
+      "raum": "130",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": null
+    },
+    {
+      "wochentag": "Fr",
+      "stunde": 2,
+      "uhrzeit_von": "08:45",
+      "uhrzeit_bis": "09:30",
+      "fach": "M",
+      "lehrer": "Kl",
+      "raum": "130",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": null
+    },
+    {
+      "wochentag": "Fr",
+      "stunde": 3,
+      "uhrzeit_von": "09:40",
+      "uhrzeit_bis": "10:25",
+      "fach": "E",
+      "lehrer": "Te",
+      "raum": "130",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": null
+    },
+    {
+      "wochentag": "Fr",
+      "stunde": 4,
+      "uhrzeit_von": "10:25",
+      "uhrzeit_bis": "11:10",
+      "fach": "M+T",
+      "lehrer": "SDa",
+      "raum": "130",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": null
+    },
+    {
+      "wochentag": "Fr",
+      "stunde": 5,
+      "uhrzeit_von": "11:30",
+      "uhrzeit_bis": "12:15",
+      "fach": "Ph",
+      "lehrer": "RoJ",
+      "raum": "125",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": null
+    },
+    {
+      "wochentag": "Fr",
+      "stunde": 6,
+      "uhrzeit_von": "12:15",
+      "uhrzeit_bis": "13:00",
+      "fach": "Ph",
+      "lehrer": "RoJ",
+      "raum": "125",
+      "rhythmus": "woechentlich",
+      "gilt_ab_kw": 47,
+      "notizen": null
+    }
+  ],
+  "stundenplan_ausnahmen": [
+    {
+      "kw": 45,
+      "datum_von": "2026-11-02",
+      "datum_bis": "2026-11-06",
+      "art": "ferien",
+      "beschreibung": "Herbstferien (HF 02.11.–08.11.), kein Unterricht"
+    },
+    {
+      "kw": 47,
+      "datum_von": "2026-11-16",
+      "art": "aenderung",
+      "beschreibung": "Mo Std 3–4 als RoJ Ph (Std 4 sonst Kl M) – Block reicht bis 11:10, Kl M fehlt",
+      "offen": true
+    },
+    {
+      "kw": 47,
+      "datum_von": "2026-11-16",
+      "art": "entfall",
+      "beschreibung": "Mo Std 10 ReB C 123 durchgestrichen (Entfall); bestätigt durch Sprachnotiz 29.10.2026 (Chemie Std 10, 15:15–16:00, R 123 entfällt)",
+      "offen": false
+    },
+    {
+      "kw": 47,
+      "datum_von": "2026-11-18",
+      "art": "feiertag",
+      "beschreibung": "Mi Buß- und Bettag (BB), kein Unterricht"
+    },
+    {
+      "kw": 47,
+      "datum_von": "2026-11-19",
+      "art": "aenderung",
+      "beschreibung": "Do Std 5–6 RoJ Ph hervorgehoben (Std 5 sonst Ka D), roter Marker '1' – passt zur Ph-Kurzarbeit 19.11. 11:30–13:00; Sprachnotiz 29.10.2026: Deutsch entfällt (roter Balken), andere Stunde zur selben Zeit",
+      "offen": false
+    },
+    {
+      "kw": 48,
+      "datum_von": "2026-11-26",
+      "art": "markierung",
+      "beschreibung": "Do Std 3–4 Te E hervorgehoben mit Info – passt zur E-Schulaufgabe 26.11."
+    },
+    {
+      "kw": 49,
+      "datum_von": "2026-11-30",
+      "art": "markierung",
+      "beschreibung": "Mo Std 6 ScD K hervorgehoben mit Info – passt zur K-Kurzarbeit 30.11."
+    },
+    {
+      "kw": 50,
+      "art": "keine",
+      "beschreibung": "Regelplan ohne Abweichung"
+    },
+    {
+      "kw": 52,
+      "datum_von": "2026-12-21",
+      "art": "markierung",
+      "beschreibung": "Mo Std 1–2 BeK F hervorgehoben – passt zur F-Schulaufgabe 21.12."
+    },
+    {
+      "kw": 52,
+      "datum_von": "2026-12-24",
+      "datum_bis": "2026-12-25",
+      "art": "ferien",
+      "beschreibung": "Do/Fr Weihnachtsferien (WF 24.12.–10.01.)"
+    }
+  ],
+  "quellen_hinweis": "Leistungsnachweise: Schul-App-Screenshot von Silas (31.10.2026), hat Vorrang vor alten Terminkarten. Stundenplan: Screenshots KW45/47/48/49/50/52. Lehrkräfte: Angaben Silas 31.10.2026. Fachabitur 2027: KM-Bekanntmachung 23.07.2025 (BayMBl. 2025 Nr. 320).",
+  "oeffentliche_kopie": "Öffentliche Kopie: ohne Lehrervollnamen und private Einträge. Pflege: Sekretär (Original in Drive)."
+}

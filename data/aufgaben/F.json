@@ -1,0 +1,258 @@
+{
+  "fach": "F",
+  "aktualisiert": "2026-10-31",
+  "aufgaben": [
+    {
+      "id": "f-l1-b1a-1",
+      "fach": "F",
+      "thema": "Leçon 1 – le verbe « être », les pronoms personnels, l'article défini et indéfini",
+      "buch": "Génération pro – niveau débutants (Ernst Klett 2008)",
+      "seite": "21",
+      "aufgabe_nr": "Bilan L1, Ü1 a), Nr. 1",
+      "wortlaut": "1 L'e-mail de Mathieu\na) Welche Personalpronomen müssen eingesetzt werden?\n1. Toi, ● t'appelles comment ?",
+      "antwortoptionen": [
+        "tu",
+        "toi",
+        "te",
+        "vous"
+      ],
+      "richtige_option": "tu",
+      "loesung": "1. Toi, tu t'appelles comment ?",
+      "loesung_quelle": "Génération pro – niveau débutants (Ernst Klett 2008), Solutions S. 200, Bilan Lektion 1, Ü1 a) Nr. 1",
+      "termin_ids": [
+        "2026-12-21-f-sa1"
+      ]
+    },
+    {
+      "id": "f-l1-b1a-2",
+      "fach": "F",
+      "thema": "Leçon 1 – le verbe « être », les pronoms personnels, l'article défini et indéfini",
+      "buch": "Génération pro – niveau débutants (Ernst Klett 2008)",
+      "seite": "21",
+      "aufgabe_nr": "Bilan L1, Ü1 a), Nr. 2",
+      "wortlaut": "1 L'e-mail de Mathieu\na) Welche Personalpronomen müssen eingesetzt werden?\n2. Lucie et moi, ● est dans le café.",
+      "antwortoptionen": [
+        "nous",
+        "ils",
+        "on",
+        "elles"
+      ],
+      "richtige_option": "on",
+      "loesung": "2. Lucie et moi, on est dans le café.",
+      "loesung_quelle": "Génération pro – niveau débutants (Ernst Klett 2008), Solutions S. 200, Bilan Lektion 1, Ü1 a) Nr. 2",
+      "termin_ids": [
+        "2026-12-21-f-sa1"
+      ]
+    },
+    {
+      "id": "f-l1-b1a-5",
+      "fach": "F",
+      "thema": "Leçon 1 – le verbe « être », les pronoms personnels, l'article défini et indéfini",
+      "buch": "Génération pro – niveau débutants (Ernst Klett 2008)",
+      "seite": "21",
+      "aufgabe_nr": "Bilan L1, Ü1 a), Nr. 5",
+      "wortlaut": "1 L'e-mail de Mathieu\na) Welche Personalpronomen müssen eingesetzt werden?\n5. Mathieu et moi, ● sommes en première.",
+      "antwortoptionen": [
+        "vous",
+        "ils",
+        "on",
+        "nous"
+      ],
+      "richtige_option": "nous",
+      "loesung": "5. Mathieu et moi, nous sommes en première.",
+      "loesung_quelle": "Génération pro – niveau débutants (Ernst Klett 2008), Solutions S. 200, Bilan Lektion 1, Ü1 a) Nr. 5",
+      "termin_ids": [
+        "2026-12-21-f-sa1"
+      ]
+    },
+    {
+      "id": "f-l1-b1a-6",
+      "fach": "F",
+      "thema": "Leçon 1 – le verbe « être », les pronoms personnels, l'article défini et indéfini",
+      "buch": "Génération pro – niveau débutants (Ernst Klett 2008)",
+      "seite": "21",
+      "aufgabe_nr": "Bilan L1, Ü1 a), Nr. 6",
+      "wortlaut": "1 L'e-mail de Mathieu\na) Welche Personalpronomen müssen eingesetzt werden?\n6. Monsieur, ● cherchez le dossier ?",
+      "antwortoptionen": [
+        "il",
+        "nous",
+        "tu",
+        "vous"
+      ],
+      "richtige_option": "vous",
+      "loesung": "6. Monsieur, vous cherchez le dossier ?",
+      "loesung_quelle": "Génération pro – niveau débutants (Ernst Klett 2008), Solutions S. 200, Bilan Lektion 1, Ü1 a) Nr. 6",
+      "termin_ids": [
+        "2026-12-21-f-sa1"
+      ]
+    },
+    {
+      "id": "f-l1-b2-2",
+      "fach": "F",
+      "thema": "Leçon 1 – le verbe « être », les pronoms personnels, l'article défini et indéfini",
+      "buch": "Génération pro – niveau débutants (Ernst Klett 2008)",
+      "seite": "21",
+      "aufgabe_nr": "Bilan L1, Ü2, Nr. 2",
+      "wortlaut": "2 Des questions sur Lyon\nSetzen Sie den bestimmten Artikel (le/la/l'/les = ● grün) bzw. den unbestimmten Artikel (un/une/des = ■ rot) ein.\n2. – ● été à La Réunion ?\n→ C'est ■ été super !",
+      "antwortoptionen": [
+        "L' … une",
+        "La … une",
+        "L' … un",
+        "Le … un"
+      ],
+      "richtige_option": "L' … un",
+      "loesung": "2. – L'été à La Réunion ? → C'est un été super !",
+      "loesung_quelle": "Génération pro – niveau débutants (Ernst Klett 2008), Solutions S. 200, Bilan Lektion 1, Ü2 Nr. 2",
+      "termin_ids": [
+        "2026-12-21-f-sa1"
+      ]
+    },
+    {
+      "id": "f-l1-b2-4",
+      "fach": "F",
+      "thema": "Leçon 1 – le verbe « être », les pronoms personnels, l'article défini et indéfini",
+      "buch": "Génération pro – niveau débutants (Ernst Klett 2008)",
+      "seite": "21",
+      "aufgabe_nr": "Bilan L1, Ü2, Nr. 4",
+      "wortlaut": "2 Des questions sur Lyon\nSetzen Sie den bestimmten Artikel (le/la/l'/les = ● grün) bzw. den unbestimmten Artikel (un/une/des = ■ rot) ein.\n4. – ● ambiance à La Martinière ?\n→ Il y a ■ ambiance cool.",
+      "antwortoptionen": [
+        "Le … un",
+        "L' … un",
+        "La … une",
+        "L' … une"
+      ],
+      "richtige_option": "L' … une",
+      "loesung": "4. – L'ambiance à La Martinière ? → Il y a une ambiance cool.",
+      "loesung_quelle": "Génération pro – niveau débutants (Ernst Klett 2008), Solutions S. 200, Bilan Lektion 1, Ü2 Nr. 4",
+      "termin_ids": [
+        "2026-12-21-f-sa1"
+      ]
+    },
+    {
+      "id": "f-l1-b2-5",
+      "fach": "F",
+      "thema": "Leçon 1 – le verbe « être », les pronoms personnels, l'article défini et indéfini",
+      "buch": "Génération pro – niveau débutants (Ernst Klett 2008)",
+      "seite": "21",
+      "aufgabe_nr": "Bilan L1, Ü2, Nr. 5",
+      "wortlaut": "2 Des questions sur Lyon\nSetzen Sie den bestimmten Artikel (le/la/l'/les = ● grün) bzw. den unbestimmten Artikel (un/une/des = ■ rot) ein.\n5. – ● problèmes de Mathieu ?\n→ Il y a ■ problèmes avec madame Duby ? Non !",
+      "antwortoptionen": [
+        "Les … les",
+        "Des … des",
+        "Le … un",
+        "Les … des"
+      ],
+      "richtige_option": "Les … des",
+      "loesung": "5. – Les problèmes de Mathieu ? → Il y a des problèmes avec madame Duby ? Non !",
+      "loesung_quelle": "Génération pro – niveau débutants (Ernst Klett 2008), Solutions S. 200, Bilan Lektion 1, Ü2 Nr. 5",
+      "termin_ids": [
+        "2026-12-21-f-sa1"
+      ]
+    },
+    {
+      "id": "f-l1-b3",
+      "fach": "F",
+      "thema": "Leçon 1 – le verbe « être », les pronoms personnels, l'article défini et indéfini",
+      "buch": "Génération pro – niveau débutants (Ernst Klett 2008)",
+      "seite": "21",
+      "aufgabe_nr": "Bilan L1, Ü3",
+      "wortlaut": "3 Mardi matin à la Cour des Loges\nSetzen Sie in den folgenden Sätzen die richtigen Formen der angegebenen Verben ein.\nLe chef (entrer) dans la cuisine : « Nina, tu (aimer) surtout la pâtisserie ? Bon d'accord, mais d'abord, les apprentis (travailler) ensemble dans la cuisine. Vous (laver) les légumes pour moi ? Nina, tu (écouter) ? Madame Duval et moi, nous (chercher) un dossier. Après, je (préparer) les entrées. »",
+      "antwortoptionen": [
+        "entre – aimes – travaillez – lavent – écoutez – cherchez – préparer",
+        "entre – aime – travaille – lavez – écoute – cherchons – prépare",
+        "entres – aimes – travaillent – lavons – écoutes – cherchent – prépares",
+        "entre – aimes – travaillent – lavez – écoutes – cherchons – prépare"
+      ],
+      "richtige_option": "entre – aimes – travaillent – lavez – écoutes – cherchons – prépare",
+      "loesung": "Le chef entre dans la cuisine : « Nina, tu aimes surtout la pâtisserie ? Bon d'accord, mais d'abord, les apprentis travaillent ensemble dans la cuisine. Vous lavez les légumes pour moi ? Nina, tu écoutes ? Madame Duval et moi, nous cherchons un dossier. Après, je prépare les entrées. »",
+      "loesung_quelle": "Génération pro – niveau débutants (Ernst Klett 2008), Solutions S. 200, Bilan Lektion 1, Ü3",
+      "termin_ids": [
+        "2026-12-21-f-sa1"
+      ]
+    },
+    {
+      "id": "f-l2-b1-2",
+      "fach": "F",
+      "thema": "Leçon 2 – les verbes « aller » et « avoir », au / à la / à l' / aux / chez",
+      "buch": "Génération pro – niveau débutants (Ernst Klett 2008)",
+      "seite": "31",
+      "aufgabe_nr": "Bilan L2, Ü1, Nr. 2",
+      "wortlaut": "1 On y va ?\nSetzen Sie die richtige Form von aller (grün) ein. Benutzen Sie außerdem au/à la/aux/chez (rot).\n2. Moi, je ● ■ cinéma avec les copains.",
+      "antwortoptionen": [
+        "va au",
+        "vais au",
+        "vais à la",
+        "allons au"
+      ],
+      "richtige_option": "vais au",
+      "loesung": "2. Moi, je vais au cinéma avec les copains.",
+      "loesung_quelle": "Génération pro – niveau débutants (Ernst Klett 2008), Solutions S. 200, Bilan Lektion 2, Ü1 Nr. 2",
+      "termin_ids": [
+        "2026-12-21-f-sa1"
+      ]
+    },
+    {
+      "id": "f-l2-b1-5",
+      "fach": "F",
+      "thema": "Leçon 2 – les verbes « aller » et « avoir », au / à la / à l' / aux / chez",
+      "buch": "Génération pro – niveau débutants (Ernst Klett 2008)",
+      "seite": "31",
+      "aufgabe_nr": "Bilan L2, Ü1, Nr. 5",
+      "wortlaut": "1 On y va ?\nSetzen Sie die richtige Form von aller (grün) ein. Benutzen Sie außerdem au/à la/aux/chez (rot).\n5. Non, les copains ● ■ agence COLOC.",
+      "antwortoptionen": [
+        "va au",
+        "vont à la",
+        "allez à l'",
+        "vont à l'"
+      ],
+      "richtige_option": "vont à l'",
+      "loesung": "5. Non, les copains vont à l'agence COLOC.",
+      "loesung_quelle": "Génération pro – niveau débutants (Ernst Klett 2008), Solutions S. 200, Bilan Lektion 2, Ü1 Nr. 5",
+      "termin_ids": [
+        "2026-12-21-f-sa1"
+      ]
+    },
+    {
+      "id": "f-l2-b2-3",
+      "fach": "F",
+      "thema": "Leçon 2 – les verbes « aller » et « avoir », au / à la / à l' / aux / chez",
+      "buch": "Génération pro – niveau débutants (Ernst Klett 2008)",
+      "seite": "31",
+      "aufgabe_nr": "Bilan L2, Ü2, Nr. 3",
+      "wortlaut": "2 Nous avons tout !\nSetzen Sie die richtige Form von avoir (grün) ein.\n3. Et Alex, il ● les papiers pour madame Leroy ?",
+      "antwortoptionen": [
+        "est",
+        "as",
+        "ont",
+        "a"
+      ],
+      "richtige_option": "a",
+      "loesung": "3. Et Alex, il a les papiers pour madame Leroy ?",
+      "loesung_quelle": "Génération pro – niveau débutants (Ernst Klett 2008), Solutions S. 200, Bilan Lektion 2, Ü2 Nr. 3",
+      "termin_ids": [
+        "2026-12-21-f-sa1"
+      ]
+    },
+    {
+      "id": "f-l2-b2-6",
+      "fach": "F",
+      "thema": "Leçon 2 – les verbes « aller » et « avoir », au / à la / à l' / aux / chez",
+      "buch": "Génération pro – niveau débutants (Ernst Klett 2008)",
+      "seite": "31",
+      "aufgabe_nr": "Bilan L2, Ü2, Nr. 6",
+      "wortlaut": "2 Nous avons tout !\nSetzen Sie die richtige Form von avoir (grün) ein.\n6. Non, les copains ● tout pour madame Leroy.",
+      "antwortoptionen": [
+        "avons",
+        "ont",
+        "sont",
+        "a"
+      ],
+      "richtige_option": "ont",
+      "loesung": "6. Non, les copains ont tout pour madame Leroy.",
+      "loesung_quelle": "Génération pro – niveau débutants (Ernst Klett 2008), Solutions S. 200, Bilan Lektion 2, Ü2 Nr. 6",
+      "termin_ids": [
+        "2026-12-21-f-sa1"
+      ]
+    }
+  ]
+}

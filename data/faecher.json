@@ -1,0 +1,115 @@
+{
+  "hinweis": "Mapping Fachkürzel → URL-sicherer Dateiname (slug). Drive-Datei aufgaben/<Kürzel>.json wird als data/aufgaben/<slug>.json abgelegt; '+' wird zu '_'.",
+  "faecher": [
+    {
+      "kuerzel": "F",
+      "slug": "F",
+      "name": "Französisch",
+      "lehrer_kuerzel": [
+        "BeK"
+      ],
+      "aufgaben_datei": "data/aufgaben/F.json",
+      "aufgaben_vorhanden": true,
+      "drive_dateiname": "F.json"
+    },
+    {
+      "kuerzel": "Ph",
+      "slug": "Ph",
+      "name": "Physik",
+      "lehrer_kuerzel": [
+        "RoJ"
+      ],
+      "aufgaben_datei": "data/aufgaben/Ph.json",
+      "aufgaben_vorhanden": true,
+      "drive_dateiname": "Ph.json"
+    },
+    {
+      "kuerzel": "M",
+      "slug": "M",
+      "name": "Mathematik",
+      "lehrer_kuerzel": [
+        "Kl"
+      ],
+      "aufgaben_datei": "data/aufgaben/M.json",
+      "aufgaben_vorhanden": false,
+      "drive_dateiname": "M.json"
+    },
+    {
+      "kuerzel": "GPuG",
+      "slug": "GPuG",
+      "name": "Geschichte, Politik und Gesellschaft",
+      "lehrer_kuerzel": [
+        "Ra"
+      ],
+      "aufgaben_datei": "data/aufgaben/GPuG.json",
+      "aufgaben_vorhanden": false,
+      "drive_dateiname": "GPuG.json"
+    },
+    {
+      "kuerzel": "K",
+      "slug": "K",
+      "name": "Katholische Religionslehre",
+      "lehrer_kuerzel": [
+        "ScD"
+      ],
+      "aufgaben_datei": "data/aufgaben/K.json",
+      "aufgaben_vorhanden": false,
+      "drive_dateiname": "K.json"
+    },
+    {
+      "kuerzel": "D",
+      "slug": "D",
+      "name": "Deutsch",
+      "lehrer_kuerzel": [
+        "Ka"
+      ],
+      "aufgaben_datei": "data/aufgaben/D.json",
+      "aufgaben_vorhanden": false,
+      "drive_dateiname": "D.json"
+    },
+    {
+      "kuerzel": "C",
+      "slug": "C",
+      "name": "Chemie",
+      "lehrer_kuerzel": [
+        "ReB"
+      ],
+      "aufgaben_datei": "data/aufgaben/C.json",
+      "aufgaben_vorhanden": false,
+      "drive_dateiname": "C.json"
+    },
+    {
+      "kuerzel": "E",
+      "slug": "E",
+      "name": "Englisch",
+      "lehrer_kuerzel": [
+        "Te"
+      ],
+      "aufgaben_datei": "data/aufgaben/E.json",
+      "aufgaben_vorhanden": false,
+      "drive_dateiname": "E.json"
+    },
+    {
+      "kuerzel": "Te",
+      "slug": "Te",
+      "name": "Technologie",
+      "lehrer_kuerzel": [
+        "Spa"
+      ],
+      "aufgaben_datei": "data/aufgaben/Te.json",
+      "aufgaben_vorhanden": false,
+      "drive_dateiname": "Te.json"
+    },
+    {
+      "kuerzel": "M+T",
+      "slug": "M_T",
+      "name": "Mathematik Additum Technik",
+      "lehrer_kuerzel": [
+        "SDa"
+      ],
+      "aufgaben_datei": "data/aufgaben/M_T.json",
+      "aufgaben_vorhanden": false,
+      "drive_dateiname": "M+T.json"
+    }
+  ]
+}
