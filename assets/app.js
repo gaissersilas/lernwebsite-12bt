@@ -1,4 +1,4 @@
-/* Lernwebsite 12BT – statisch, ohne Build. Daten: data/termine.json, data/faecher.json, data/aufgaben/<slug>.json */
+/* Lernwebsite 12BT – statisch, ohne Build. Daten: data/termine.json, data/faecher.json, data/aufgaben/<slug>.json, data/vokabeln/<slug>.json (Trainer: assets/vokabeltrainer.js) */
 (function () {
   "use strict";
   var TZ = "Europe/Berlin";
@@ -154,6 +154,7 @@
       + offen.map(function (t) { return "<li>" + esc(t.titel || TYP_LABEL[t.typ]) + ' <span class="badge">Termin folgt</span></li>'; }).join("") + "</ul>";
     if (verg.length) h += "<details><summary>Vergangene Termine (" + verg.length + ")</summary><ul class=\"clean\">" + verg.map(function (t) { return "<li>" + esc(datumText(t)) + " – " + esc(TYP_LABEL[t.typ] || t.typ) + (t.titel ? " (" + esc(t.titel) + ")" : "") + "</li>"; }).join("") + "</ul></details>";
     h += "</section>";
+    if (f.vokabeln_vorhanden) h += '<section id="vokabeltrainer" aria-labelledby="h-vt"><h2 id="h-vt">Vokabeltrainer</h2><div class="vt" data-slug="' + esc(f.slug) + '"></div></section>';
     h += '<section aria-labelledby="h-auf"><h2 id="h-auf">Übungsaufgaben</h2>';
     h += auf.length ? '<p class="meta">' + auf.length + " Aufgaben. Antwort wählen, prüfen, dann Lösung und Quelle aufklappen.</p>" + auf.map(aufgabeHTML).join("") : '<p class="leer">Aufgaben folgen – hier erscheinen bald Übungen für ' + esc(f.name) + ".</p>";
     return h + "</section>";
@@ -211,6 +212,9 @@
     document.title = (f ? f.name + " – " : aktiv === "ueber" ? "Über – " : "") + "Lernwebsite 12BT";
     document.getElementById("nav").classList.remove("open");
     document.querySelector(".nav-toggle").setAttribute("aria-expanded", "false");
+    var vt = main.querySelector(".vt[data-slug]");
+    if (vt && window.Vokabeltrainer) window.Vokabeltrainer.mount(vt, f);
+    if (ziel === "vokabeln") { var sv = document.getElementById("vokabeltrainer"); if (sv) { sv.scrollIntoView(); return; } }
     if (ziel) {
       var el = document.getElementById("a-" + ziel.replace(/[^A-Za-z0-9_-]/g, "_"));
       if (el) { el.classList.add("ziel"); el.scrollIntoView(); el.setAttribute("tabindex", "-1"); el.focus({ preventScroll: true }); return; }

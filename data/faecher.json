@@ -1,5 +1,5 @@
 {
-  "hinweis": "Mapping Fachkürzel → URL-sicherer Dateiname (slug). Drive-Datei aufgaben/<Kürzel>.json wird als data/aufgaben/<slug>.json abgelegt; '+' wird zu '_'.",
+  "hinweis": "Mapping Fachkürzel → URL-sicherer Dateiname (slug). Drive-Datei aufgaben/<Kürzel>.json wird als data/aufgaben/<slug>.json abgelegt; '+' wird zu '_'. Vokabeltrainer: vokabeln_vorhanden: true + data/vokabeln/<slug>.json (nur Vokabelteil der Schulbücher).",
   "faecher": [
     {
       "kuerzel": "F",
@@ -10,6 +10,10 @@
       ],
       "aufgaben_datei": "data/aufgaben/F.json",
       "aufgaben_vorhanden": true,
+      "vokabeln_vorhanden": true,
+      "vokabeln_datei": "data/vokabeln/F.json",
+      "vokabeln_sprache": "fr",
+      "vokabeln_sprache_kurz": "FR",
       "drive_dateiname": "F.json"
     },
     {
@@ -21,6 +25,7 @@
       ],
       "aufgaben_datei": "data/aufgaben/Ph.json",
       "aufgaben_vorhanden": true,
+      "vokabeln_vorhanden": false,
       "drive_dateiname": "Ph.json"
     },
     {
@@ -32,6 +37,7 @@
       ],
       "aufgaben_datei": "data/aufgaben/M.json",
       "aufgaben_vorhanden": false,
+      "vokabeln_vorhanden": false,
       "drive_dateiname": "M.json"
     },
     {
@@ -43,6 +49,7 @@
       ],
       "aufgaben_datei": "data/aufgaben/GPuG.json",
       "aufgaben_vorhanden": false,
+      "vokabeln_vorhanden": false,
       "drive_dateiname": "GPuG.json"
     },
     {
@@ -54,6 +61,7 @@
       ],
       "aufgaben_datei": "data/aufgaben/K.json",
       "aufgaben_vorhanden": false,
+      "vokabeln_vorhanden": false,
       "drive_dateiname": "K.json"
     },
     {
@@ -65,6 +73,7 @@
       ],
       "aufgaben_datei": "data/aufgaben/D.json",
       "aufgaben_vorhanden": false,
+      "vokabeln_vorhanden": false,
       "drive_dateiname": "D.json"
     },
     {
@@ -76,6 +85,7 @@
       ],
       "aufgaben_datei": "data/aufgaben/C.json",
       "aufgaben_vorhanden": false,
+      "vokabeln_vorhanden": false,
       "drive_dateiname": "C.json"
     },
     {
@@ -87,6 +97,10 @@
       ],
       "aufgaben_datei": "data/aufgaben/E.json",
       "aufgaben_vorhanden": false,
+      "vokabeln_vorhanden": false,
+      "vokabeln_datei": "data/vokabeln/E.json",
+      "vokabeln_sprache": "en",
+      "vokabeln_sprache_kurz": "EN",
       "drive_dateiname": "E.json"
     },
     {
@@ -98,6 +112,7 @@
       ],
       "aufgaben_datei": "data/aufgaben/Te.json",
       "aufgaben_vorhanden": false,
+      "vokabeln_vorhanden": false,
       "drive_dateiname": "Te.json"
     },
     {
@@ -109,6 +124,7 @@
       ],
       "aufgaben_datei": "data/aufgaben/M_T.json",
       "aufgaben_vorhanden": true,
+      "vokabeln_vorhanden": false,
       "drive_dateiname": "M+T.json"
     }
   ]

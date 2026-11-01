@@ -22,6 +22,7 @@ nav ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.3rem}
 nav a{display:inline-block;padding:.35rem .65rem;border-radius:999px;text-decoration:none;color:var(--fg);border:1px solid var(--line);background:var(--card);font-weight:600;font-size:.92rem;min-height:2.2rem;line-height:1.5}
 nav a:hover{background:var(--accent-soft)}
 nav a[aria-current=page]{background:var(--accent);color:var(--accent-fg);border-color:var(--accent)}
+#vokabeltrainer,.vt-karte,.aufgabe{scroll-margin-top:5.5rem}
 main{flex:1;width:100%;max-width:1040px;margin:0 auto;padding:1rem}
 main:focus{outline:none}
 h1,h2,h3{font-family:var(--head);line-height:1.25}
@@ -87,12 +88,62 @@ summary{cursor:pointer;font-weight:600;color:var(--accent);padding:.3rem 0}
 }
 @media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
 
+/* ---------- Vokabeltrainer (assets/vokabeltrainer.js) – nutzt die Fach-Variablen ---------- */
+.vt-panel,.vt-karte{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1rem 1.1rem;margin:.6rem 0}
+.vt-lek{display:grid;gap:.35rem;grid-template-columns:repeat(auto-fill,minmax(150px,1fr))}
+.vt-lk{display:flex;gap:.5rem;align-items:flex-start;padding:.45rem .5rem;border:1px solid var(--line);border-radius:6px;cursor:pointer}
+.vt-lk:hover{background:var(--accent-soft)}
+.vt-lk input{margin-top:.3rem;width:1.1rem;height:1.1rem;accent-color:var(--accent);flex:none}
+.vt-lk-t{display:flex;flex-direction:column;gap:.1rem;width:100%}
+.vt-bar{display:block;height:5px;background:var(--accent-soft);border-radius:3px;overflow:hidden;margin:.2rem 0 0}
+.vt-bar span{display:block;height:100%;background:var(--ok)}
+.vt-r{display:inline-flex;gap:.35rem;align-items:center;margin:.25rem 1.1rem .25rem 0;cursor:pointer;min-height:2.2rem}
+.vt-r input{accent-color:var(--accent);width:1.05rem;height:1.05rem}
+.vt-r select{font:inherit;padding:.25rem .4rem;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--fg)}
+.vt-alle{margin:.4rem 0 0}
+.vt-link{font:inherit;background:none;border:0;padding:.2rem 0;color:var(--accent);text-decoration:underline;text-underline-offset:2px;cursor:pointer}
+.vt-kopf{display:flex;gap:.6rem;align-items:center;flex-wrap:wrap}
+.vt-ende{margin-left:auto;font-size:.9rem}
+.vt-prompt{font:600 1.6rem/1.3 var(--head);margin:.8rem 0 .2rem;overflow-wrap:anywhere}
+.vt-quelle{margin:0 0 .8rem}
+.vt-opts{display:grid;gap:.5rem;grid-template-columns:repeat(auto-fill,minmax(220px,1fr))}
+.vt-opt{font:inherit;text-align:left;display:flex;gap:.6rem;align-items:flex-start;padding:.6rem .7rem;min-height:2.8rem;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg);cursor:pointer}
+.vt-opt:hover:not(:disabled){background:var(--accent-soft);border-color:var(--accent)}
+.vt-opt:disabled{cursor:default;opacity:.85}
+.vt-opt.ok{background:#e3f4e8;outline:2px solid var(--ok);opacity:1;color:#13361f}
+.vt-opt.falsch{background:#fbe6e4;outline:2px solid var(--bad);opacity:1;color:#4a1410}
+.vt-txt{min-width:0;overflow-wrap:anywhere}
+.vt-loes dt,.vt-loes dd,.vt-notiz li{overflow-wrap:anywhere}
+.vt-nr{flex:none;font-size:.8rem;font-weight:700;min-width:1.4rem;height:1.4rem;line-height:1.4rem;text-align:center;border-radius:999px;background:var(--accent-soft);color:var(--fg)}
+.vt-tip{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center}
+.vt-tip input[type=text]{font:inherit;font-size:1.1rem;flex:1 1 240px;padding:.55rem .7rem;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg);min-height:2.6rem}
+.vt-tip input.ok{outline:2px solid var(--ok)} .vt-tip input.falsch{outline:2px solid var(--bad)}
+.vt-zeichen{display:flex;flex-wrap:wrap;gap:.25rem;width:100%}
+.vt-z{font:inherit;min-width:2.2rem;min-height:2.2rem;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--fg);cursor:pointer}
+.vt-z:hover{background:var(--accent-soft)}
+.vt-auswertung{margin-top:.6rem}
+.vt-loes{margin:.3rem 0}
+.vt-loes div{display:flex;flex-wrap:wrap;gap:.2rem .8rem;padding:.3rem 0;border-bottom:1px dashed var(--line)}
+.vt-loes dt{font-weight:700} .vt-loes dd{margin:0}
+.vt-notiz{border-left:4px solid var(--accent);background:var(--accent-soft);padding:.4rem .8rem;border-radius:4px;margin:.6rem 0}
+.vt-notiz-t{margin:0;font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--accent)}
+.vt-notiz ul{margin:.3rem 0;padding-left:1.1rem}
+.vt-aktion{display:flex;gap:.8rem;align-items:center;flex-wrap:wrap;margin:.8rem 0 0}
+.vt-weiter{font:inherit;font-weight:700;background:var(--accent);color:var(--accent-fg);border:0;border-radius:8px;padding:.55rem 1.2rem;cursor:pointer;min-height:2.6rem}
+.vt-score{font-size:1.2rem}
+.vt-falsch li{margin:.2rem 0}
+.theme-M_T .vt-opt.ok{background:#1e5b3a;color:#fff} .theme-M_T .vt-opt.falsch{background:#6b2a2a;color:#fff}
+.theme-M_T .vt-notiz-t{color:var(--fg)}
+
 /* ---------- Fach-Themes ---------- */
 /* Physik: technisch-blau mit Raster */
 .theme-Ph{--bg:#eef4fb;--accent:#0b4f9c;--accent-soft:#dbe8f7;--line:#bcd0e8;--head:"DejaVu Sans Mono",Menlo,Consolas,monospace;
   --pattern:linear-gradient(rgba(11,79,156,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(11,79,156,.07) 1px,transparent 1px);--pattern-size:24px 24px;--radius:4px}
+/* Französisch: Ziffern der Didot-Fallbacks (z. B. GFS Didot: "1" wie "I") durch klare Serifen-Ziffern ersetzen */
+@font-face{font-family:"F-Ziffern";src:local("Times New Roman"),local("TimesNewRomanPSMT"),local("Liberation Serif"),local("LiberationSerif"),local("Noto Serif"),local("DejaVu Serif");unicode-range:U+0030-0039;font-weight:400}
+@font-face{font-family:"F-Ziffern";src:local("Times New Roman Bold"),local("TimesNewRomanPS-BoldMT"),local("Liberation Serif Bold"),local("LiberationSerif-Bold"),local("Noto Serif Bold"),local("DejaVu Serif Bold");unicode-range:U+0030-0039;font-weight:600 900}
 /* Französisch: trikolore-elegant */
-.theme-F{--bg:#fbfaf7;--accent:#1d3a8a;--accent-soft:#e8ecf8;--line:#ddd8cc;--head:Didot,"Bodoni 72","Playfair Display",Georgia,serif;
+.theme-F{--bg:#fbfaf7;--accent:#1d3a8a;--accent-soft:#e8ecf8;--line:#ddd8cc;--head:"F-Ziffern",Didot,"Bodoni 72","Playfair Display",Georgia,serif;
   --pattern:linear-gradient(90deg,#1d3a8a 0 33.3%,#ffffff 33.3% 66.6%,#c8102e 66.6%);--pattern-size:100% 6px;background-repeat:no-repeat;--radius:2px}
 .theme-F .room-hero{border-left:0;border-top:6px solid;border-image:linear-gradient(90deg,#1d3a8a 33%,#fff 33% 66%,#c8102e 66%) 1}
 /* Mathematik: kariert */
