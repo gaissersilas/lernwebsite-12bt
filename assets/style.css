@@ -60,7 +60,7 @@ tbody tr:last-child td{border-bottom:0}
 .quelle{font-size:.85rem;color:var(--muted)}
 .aufgabe{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:1rem 1.1rem;margin:.9rem 0}
 .aufgabe.ziel{box-shadow:0 0 0 3px var(--accent)}
-.wortlaut{white-space:pre-line;font-size:1.02rem}
+.wortlaut{white-space:pre-wrap;font-size:1.02rem}
 fieldset{border:1px solid var(--line);border-radius:8px;margin:.5rem 0;padding:.5rem .7rem}
 legend{font-weight:600;padding:0 .3rem}
 .opt{display:flex;gap:.6rem;align-items:flex-start;padding:.45rem .4rem;border-radius:6px;cursor:pointer;min-height:2.6rem}
@@ -73,7 +73,7 @@ button[type=submit]{font:inherit;font-weight:700;background:var(--accent);color:
 .feedback.ok{color:var(--ok)} .feedback.falsch{color:var(--bad)}
 details{margin-top:.6rem}
 summary{cursor:pointer;font-weight:600;color:var(--accent);padding:.3rem 0}
-.loesung{white-space:pre-line}
+.loesung{white-space:pre-wrap}
 .leer{background:var(--card);border:2px dashed var(--line);border-radius:var(--radius);padding:1.5rem;text-align:center;font-size:1.05rem;color:var(--muted)}
 .md{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:.5rem 1.2rem 1rem;margin-top:1rem}
 .site-footer{text-align:center;color:var(--muted);font-size:.85rem;padding:1rem;border-top:1px solid var(--line);background:var(--card)}
